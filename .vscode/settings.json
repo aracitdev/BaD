@@ -1,0 +1,4 @@
+{
+    "dotnet.defaultSolution": "BaD.sln",
+    "cmake.configureOnOpen": false
+}

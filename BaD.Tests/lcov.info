@@ -1,0 +1,4730 @@
+SF:C:\Users\lords\Documents\Github\BaD\CodeGenerator\CodeGenerationExpression.cs
+FN:11,System.Action`1<BaD.IGenerator> BaD.CodeGenerationExpression::get_OnGenerate()
+FNDA:0,System.Action`1<BaD.IGenerator> BaD.CodeGenerationExpression::get_OnGenerate()
+DA:12,0
+FN:29,System.Void BaD.CodeGenerationExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Void BaD.CodeGenerationExpression::GenerateCode(BaD.IGenerator)
+DA:30,0
+DA:31,0
+DA:32,0
+FN:14,System.Void BaD.CodeGenerationExpression::.ctor(BaD.SExpression)
+FNDA:0,System.Void BaD.CodeGenerationExpression::.ctor(BaD.SExpression)
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+FN:23,System.Void BaD.CodeGenerationExpression::.ctor(System.Action`1<BaD.IGenerator>)
+FNDA:0,System.Void BaD.CodeGenerationExpression::.ctor(System.Action`1<BaD.IGenerator>)
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+LF:16
+LH:0
+BRF:0
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:C:\Users\lords\Documents\Github\BaD\CodeGenerator\CodeGenerator.cs
+FN:24,System.String BaD.x86_64CodeGenerator::GenerateUniqueName()
+FNDA:0,System.String BaD.x86_64CodeGenerator::GenerateUniqueName()
+DA:25,0
+DA:26,0
+DA:27,0
+FN:29,System.Void BaD.x86_64CodeGenerator::PushOperations(System.Collections.Generic.List`1<BaD.CodeGenerationExpression>)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::PushOperations(System.Collections.Generic.List`1<BaD.CodeGenerationExpression>)
+DA:30,0
+DA:32,0
+DA:33,0
+DA:34,0
+BRDA:32,44,1,0
+BRDA:32,44,0,0
+FN:36,System.Int32 BaD.x86_64CodeGenerator::SizeOf(BaD.Type)
+FNDA:0,System.Int32 BaD.x86_64CodeGenerator::SizeOf(BaD.Type)
+DA:37,0
+DA:38,0
+DA:39,0
+FN:41,System.Void BaD.x86_64CodeGenerator::ProcessOperations()
+FNDA:0,System.Void BaD.x86_64CodeGenerator::ProcessOperations()
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+BRDA:43,39,1,0
+BRDA:43,39,0,0
+FN:51,System.String BaD.x86_64CodeGenerator::GenerateUniqueLabel()
+FNDA:0,System.String BaD.x86_64CodeGenerator::GenerateUniqueLabel()
+DA:52,0
+DA:53,0
+DA:54,0
+FN:56,System.Void BaD.x86_64CodeGenerator::CreateLabel(System.String)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::CreateLabel(System.String)
+DA:57,0
+DA:58,0
+DA:59,0
+FN:61,System.Void BaD.x86_64CodeGenerator::Jump(System.String)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::Jump(System.String)
+DA:62,0
+DA:63,0
+DA:64,0
+FN:66,System.Void BaD.x86_64CodeGenerator::JumpIfZero(BaD.IGenerator/RegisterUses,System.String)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::JumpIfZero(BaD.IGenerator/RegisterUses,System.String)
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+FN:86,System.String BaD.x86_64CodeGenerator::MapRegister(BaD.IGenerator/RegisterUses,System.Int32)
+FNDA:0,System.String BaD.x86_64CodeGenerator::MapRegister(BaD.IGenerator/RegisterUses,System.Int32)
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+BRDA:88,8,0,0
+BRDA:88,8,1,0
+BRDA:88,8,2,0
+BRDA:88,8,4,0
+BRDA:88,33,1,0
+BRDA:88,8,3,0
+BRDA:88,33,0,0
+FN:146,System.Int32 BaD.x86_64CodeGenerator::PushTmpSize(System.Int32)
+FNDA:0,System.Int32 BaD.x86_64CodeGenerator::PushTmpSize(System.Int32)
+DA:147,0
+DA:148,0
+DA:150,0
+DA:151,0
+FN:153,System.Int32 BaD.x86_64CodeGenerator::PopTmpSize(System.Int32)
+FNDA:0,System.Int32 BaD.x86_64CodeGenerator::PopTmpSize(System.Int32)
+DA:154,0
+DA:155,0
+DA:156,0
+DA:158,0
+DA:159,0
+FN:161,System.Void BaD.x86_64CodeGenerator::PushTmp(System.Int64)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::PushTmp(System.Int64)
+DA:162,0
+DA:164,0
+DA:165,0
+DA:166,0
+FN:168,System.Void BaD.x86_64CodeGenerator::PushTmp(BaD.IGenerator/RegisterUses)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::PushTmp(BaD.IGenerator/RegisterUses)
+DA:169,0
+DA:170,0
+DA:171,0
+DA:172,0
+FN:174,System.Void BaD.x86_64CodeGenerator::PushTmp(System.String)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::PushTmp(System.String)
+DA:175,0
+DA:176,0
+DA:177,0
+DA:178,0
+FN:180,System.Void BaD.x86_64CodeGenerator::PopTmp(BaD.IGenerator/RegisterUses)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::PopTmp(BaD.IGenerator/RegisterUses)
+DA:181,0
+DA:182,0
+DA:183,0
+DA:184,0
+FN:186,System.Void BaD.x86_64CodeGenerator::LoadFromMemory(BaD.IGenerator/RegisterUses,System.String)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::LoadFromMemory(BaD.IGenerator/RegisterUses,System.String)
+DA:187,0
+DA:188,0
+DA:190,0
+DA:191,0
+DA:192,0
+DA:193,0
+DA:194,0
+DA:195,0
+DA:196,0
+DA:198,0
+DA:199,0
+DA:201,0
+DA:202,0
+DA:203,0
+DA:204,0
+DA:206,0
+DA:207,0
+DA:209,0
+DA:210,0
+DA:211,0
+DA:213,0
+DA:214,0
+DA:216,0
+BRDA:193,57,0,0
+BRDA:195,68,0,0
+BRDA:195,68,1,0
+BRDA:193,57,1,0
+BRDA:201,382,0,0
+BRDA:203,393,0,0
+BRDA:203,393,1,0
+BRDA:201,382,1,0
+BRDA:210,705,0,0
+BRDA:210,705,1,0
+FN:218,System.Void BaD.x86_64CodeGenerator::LoadFromMemory(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses,BaD.Type)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::LoadFromMemory(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses,BaD.Type)
+DA:219,0
+DA:220,0
+DA:221,0
+DA:222,0
+DA:225,0
+DA:226,0
+DA:227,0
+DA:228,0
+DA:230,0
+DA:231,0
+DA:233,0
+DA:234,0
+DA:235,0
+DA:236,0
+DA:238,0
+DA:239,0
+DA:241,0
+DA:242,0
+DA:243,0
+DA:245,0
+DA:246,0
+DA:247,0
+BRDA:225,35,0,0
+BRDA:227,46,0,0
+BRDA:227,46,1,0
+BRDA:225,35,1,0
+BRDA:233,392,0,0
+BRDA:235,403,0,0
+BRDA:235,403,1,0
+BRDA:233,392,1,0
+BRDA:242,747,0,0
+BRDA:242,747,1,0
+FN:249,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.x86_64CodeGenerator::LoadToRegister(BaD.IGenerator/RegisterUses,BaD.SExpression)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.x86_64CodeGenerator::LoadToRegister(BaD.IGenerator/RegisterUses,BaD.SExpression)
+DA:250,0
+DA:254,0
+DA:256,0
+DA:258,0
+DA:259,0
+DA:260,0
+DA:261,0
+DA:262,0
+DA:263,0
+DA:266,0
+DA:267,0
+DA:270,0
+DA:271,0
+DA:272,0
+DA:273,0
+DA:276,0
+DA:277,0
+DA:278,0
+DA:280,0
+BRDA:250,51,0,0
+BRDA:250,71,0,0
+BRDA:250,51,1,0
+BRDA:250,71,1,0
+BRDA:250,91,1,0
+BRDA:258,197,0,0
+BRDA:258,197,1,0
+BRDA:250,91,0,0
+BRDA:276,304,0,0
+BRDA:276,304,1,0
+FN:283,System.Void BaD.x86_64CodeGenerator::Cast(BaD.IGenerator/RegisterUses,BaD.Type,BaD.Type)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::Cast(BaD.IGenerator/RegisterUses,BaD.Type,BaD.Type)
+DA:284,0
+DA:285,0
+DA:286,0
+DA:288,0
+DA:289,0
+DA:291,0
+DA:292,0
+DA:297,0
+DA:298,0
+DA:300,0
+DA:301,0
+DA:302,0
+DA:303,0
+DA:305,0
+DA:306,0
+DA:307,0
+DA:308,0
+DA:312,0
+DA:313,0
+DA:315,0
+DA:316,0
+DA:317,0
+DA:318,0
+BRDA:285,9,1,0
+BRDA:297,58,0,0
+BRDA:301,80,0,0
+BRDA:301,84,0,0
+BRDA:301,84,1,0
+BRDA:301,80,1,0
+BRDA:301,102,0,0
+BRDA:301,102,1,0
+BRDA:297,58,1,0
+BRDA:305,261,0,0
+BRDA:308,283,0,0
+BRDA:308,287,0,0
+BRDA:308,287,1,0
+BRDA:308,283,1,0
+BRDA:308,305,0,0
+BRDA:308,305,1,0
+BRDA:305,261,1,0
+BRDA:285,9,0,0
+FN:322,System.Void BaD.x86_64CodeGenerator::LoadToRegister(BaD.IGenerator/RegisterUses,System.Int64)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::LoadToRegister(BaD.IGenerator/RegisterUses,System.Int64)
+DA:323,0
+DA:324,0
+DA:325,0
+FN:327,System.Void BaD.x86_64CodeGenerator::LoadToRegister(BaD.IGenerator/RegisterUses,System.String)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::LoadToRegister(BaD.IGenerator/RegisterUses,System.String)
+DA:328,0
+DA:329,0
+DA:330,0
+DA:331,0
+FN:333,System.Void BaD.x86_64CodeGenerator::LoadToRegister(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::LoadToRegister(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses)
+DA:334,0
+DA:335,0
+DA:336,0
+FN:338,System.Void BaD.x86_64CodeGenerator::LoadFunctionAddress(BaD.IGenerator/RegisterUses,System.String)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::LoadFunctionAddress(BaD.IGenerator/RegisterUses,System.String)
+DA:339,0
+DA:340,0
+DA:341,0
+FN:343,System.Void BaD.x86_64CodeGenerator::LoadVariableAddress(BaD.IGenerator/RegisterUses,System.String)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::LoadVariableAddress(BaD.IGenerator/RegisterUses,System.String)
+DA:344,0
+DA:345,0
+DA:346,0
+DA:347,0
+FN:349,System.Int32 BaD.x86_64CodeGenerator::AllocateVariable(System.String,BaD.Type)
+FNDA:0,System.Int32 BaD.x86_64CodeGenerator::AllocateVariable(System.String,BaD.Type)
+DA:350,0
+DA:351,0
+DA:352,0
+DA:353,0
+FN:355,System.Void BaD.x86_64CodeGenerator::ReturnFromFunction()
+FNDA:0,System.Void BaD.x86_64CodeGenerator::ReturnFromFunction()
+DA:356,0
+DA:357,0
+DA:358,0
+DA:359,0
+FN:362,System.Void BaD.x86_64CodeGenerator::Add(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::Add(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses)
+DA:363,0
+DA:364,0
+DA:365,0
+FN:367,System.Void BaD.x86_64CodeGenerator::Subtract(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::Subtract(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses)
+DA:368,0
+DA:369,0
+DA:370,0
+FN:372,System.Void BaD.x86_64CodeGenerator::Multiply(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::Multiply(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses)
+DA:373,0
+DA:374,0
+DA:375,0
+FN:377,System.Void BaD.x86_64CodeGenerator::Divide(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::Divide(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses)
+DA:378,0
+DA:380,0
+DA:381,0
+DA:382,0
+FN:384,System.Void BaD.x86_64CodeGenerator::Compare(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses,BaD.TokenType)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::Compare(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses,BaD.TokenType)
+DA:385,0
+DA:386,0
+DA:387,0
+DA:388,0
+DA:389,0
+DA:390,0
+DA:391,0
+DA:392,0
+DA:393,0
+DA:394,0
+DA:395,0
+DA:396,0
+DA:397,0
+DA:399,0
+DA:400,0
+BRDA:386,9,1,0
+BRDA:386,9,3,0
+BRDA:386,9,2,0
+BRDA:386,9,4,0
+BRDA:386,9,5,0
+BRDA:386,9,6,0
+BRDA:386,9,0,0
+FN:402,System.Void BaD.x86_64CodeGenerator::And(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::And(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses)
+DA:403,0
+DA:404,0
+DA:405,0
+FN:407,System.Void BaD.x86_64CodeGenerator::Or(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::Or(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses)
+DA:408,0
+DA:409,0
+DA:410,0
+FN:412,System.Void BaD.x86_64CodeGenerator::Not(BaD.IGenerator/RegisterUses)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::Not(BaD.IGenerator/RegisterUses)
+DA:413,0
+DA:416,0
+DA:417,0
+DA:418,0
+DA:419,0
+FN:421,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.x86_64CodeGenerator::Block(BaD.BlockExpression)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.x86_64CodeGenerator::Block(BaD.BlockExpression)
+DA:422,0
+DA:424,0
+DA:425,0
+DA:426,0
+DA:427,0
+DA:428,0
+DA:429,0
+DA:430,0
+DA:431,0
+DA:432,0
+DA:433,0
+DA:434,0
+DA:435,0
+DA:440,0
+DA:441,0
+DA:442,0
+DA:443,0
+DA:446,0
+DA:447,0
+DA:448,0
+DA:449,0
+DA:450,0
+DA:451,0
+DA:452,0
+DA:453,0
+DA:454,0
+DA:456,0
+DA:457,0
+BRDA:440,111,1,0
+BRDA:440,111,0,0
+FN:460,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.x86_64CodeGenerator::Call(BaD.FunctionCallExpression)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.x86_64CodeGenerator::Call(BaD.FunctionCallExpression)
+DA:461,0
+DA:462,0
+DA:463,0
+DA:465,0
+DA:467,0
+DA:474,0
+DA:475,0
+DA:476,0
+DA:477,0
+DA:478,0
+DA:479,0
+DA:480,0
+DA:482,0
+DA:483,0
+DA:485,0
+DA:486,0
+DA:487,0
+DA:488,0
+DA:489,0
+DA:490,0
+DA:493,0
+DA:494,0
+DA:495,0
+DA:496,0
+DA:497,0
+DA:498,0
+DA:499,0
+DA:500,0
+DA:501,0
+DA:502,0
+DA:504,0
+DA:506,0
+DA:507,0
+DA:508,0
+DA:509,0
+DA:511,0
+DA:512,0
+DA:513,0
+DA:514,0
+DA:515,0
+DA:516,0
+DA:517,0
+DA:518,0
+DA:519,0
+DA:520,0
+DA:522,0
+DA:524,0
+DA:525,0
+DA:526,0
+DA:527,0
+DA:528,0
+DA:530,0
+DA:531,0
+DA:532,0
+DA:534,0
+DA:536,0
+DA:537,0
+DA:539,0
+DA:540,0
+DA:541,0
+DA:542,0
+DA:543,0
+DA:544,0
+DA:545,0
+DA:546,0
+DA:547,0
+DA:548,0
+DA:553,0
+DA:554,0
+DA:556,0
+DA:557,0
+DA:558,0
+DA:559,0
+DA:560,0
+DA:561,0
+DA:562,0
+DA:564,0
+DA:565,0
+DA:567,0
+DA:568,0
+DA:569,0
+DA:570,0
+DA:571,0
+DA:572,0
+DA:573,0
+DA:574,0
+DA:576,0
+DA:577,0
+DA:578,0
+DA:579,0
+DA:580,0
+DA:582,0
+DA:583,0
+DA:585,0
+DA:588,0
+DA:589,0
+DA:590,0
+DA:591,0
+DA:592,0
+DA:593,0
+DA:595,0
+DA:596,0
+BRDA:474,94,0,0
+BRDA:476,231,1,0
+BRDA:479,133,0,0
+BRDA:479,133,1,0
+BRDA:476,231,0,0
+BRDA:493,379,1,0
+BRDA:496,280,0,0
+BRDA:496,280,1,0
+BRDA:493,379,0,0
+BRDA:474,94,1,0
+BRDA:524,592,1,0
+BRDA:527,438,0,0
+BRDA:527,438,1,0
+BRDA:524,592,0,0
+BRDA:553,637,0,0
+BRDA:556,670,0,0
+BRDA:556,670,1,0
+BRDA:564,724,0,0
+BRDA:564,724,1,0
+BRDA:553,637,1,0
+BRDA:582,855,0,0
+BRDA:582,855,1,0
+FN:601,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.x86_64CodeGenerator::Function(BaD.FuncExpression)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.x86_64CodeGenerator::Function(BaD.FuncExpression)
+DA:602,0
+DA:603,0
+DA:605,0
+DA:606,0
+DA:607,0
+DA:608,0
+DA:609,0
+DA:610,0
+DA:611,0
+DA:612,0
+DA:613,0
+DA:614,0
+DA:615,0
+DA:616,0
+DA:617,0
+DA:618,0
+DA:619,0
+DA:620,0
+DA:621,0
+DA:622,0
+DA:623,0
+DA:624,0
+DA:625,0
+DA:626,0
+DA:627,0
+DA:628,0
+DA:629,0
+DA:630,0
+DA:631,0
+DA:632,0
+DA:633,0
+DA:634,0
+DA:635,0
+DA:636,0
+DA:639,0
+DA:640,0
+DA:641,0
+DA:642,0
+DA:644,0
+DA:645,0
+DA:646,0
+DA:647,0
+DA:648,0
+DA:649,0
+DA:650,0
+DA:651,0
+DA:652,0
+DA:653,0
+DA:654,0
+BRDA:639,111,1,0
+BRDA:639,111,0,0
+BRDA:622,191,0,0
+BRDA:622,191,1,0
+BRDA:626,480,1,0
+BRDA:633,344,0,0
+BRDA:633,344,1,0
+BRDA:626,480,0,0
+BRDA:648,29,0,0
+BRDA:648,29,1,0
+FN:669,System.Collections.Generic.KeyValuePair`2<System.Int32,BaD.Type> BaD.x86_64CodeGenerator::FindVariable(System.String)
+FNDA:0,System.Collections.Generic.KeyValuePair`2<System.Int32,BaD.Type> BaD.x86_64CodeGenerator::FindVariable(System.String)
+DA:670,0
+DA:671,0
+DA:674,0
+DA:675,0
+DA:676,0
+DA:677,0
+DA:678,0
+DA:679,0
+DA:680,0
+DA:683,0
+DA:684,0
+BRDA:674,116,1,0
+BRDA:676,47,0,0
+BRDA:676,47,1,0
+BRDA:674,116,0,0
+FN:689,System.Boolean BaD.x86_64CodeGenerator::IsFunction(System.String)
+FNDA:0,System.Boolean BaD.x86_64CodeGenerator::IsFunction(System.String)
+DA:690,0
+DA:691,0
+DA:692,0
+DA:693,0
+DA:695,0
+DA:696,0
+BRDA:691,15,0,0
+BRDA:691,15,1,0
+FN:698,System.Boolean BaD.x86_64CodeGenerator::IsVariable(System.String)
+FNDA:0,System.Boolean BaD.x86_64CodeGenerator::IsVariable(System.String)
+DA:699,0
+DA:701,0
+DA:702,0
+DA:703,0
+DA:704,0
+DA:705,0
+DA:706,0
+DA:707,0
+BRDA:701,58,1,0
+BRDA:703,31,0,0
+BRDA:703,31,1,0
+BRDA:701,58,0,0
+FN:724,System.Void BaD.x86_64CodeGenerator::GenerateDataSection()
+FNDA:0,System.Void BaD.x86_64CodeGenerator::GenerateDataSection()
+DA:725,0
+DA:727,0
+DA:730,0
+DA:731,0
+DA:732,0
+DA:733,0
+DA:736,0
+DA:737,0
+DA:738,0
+DA:739,0
+DA:740,0
+DA:741,0
+DA:742,0
+DA:743,0
+DA:744,0
+DA:745,0
+DA:746,0
+DA:747,0
+DA:748,0
+DA:749,0
+DA:750,0
+DA:751,0
+DA:752,0
+DA:753,0
+DA:754,0
+DA:755,0
+DA:756,0
+DA:757,0
+DA:758,0
+DA:759,0
+DA:760,0
+DA:762,0
+DA:763,0
+DA:764,0
+BRDA:762,147,1,0
+BRDA:762,147,0,0
+FN:766,System.Void BaD.x86_64CodeGenerator::AddExtern(System.String,System.String)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::AddExtern(System.String,System.String)
+DA:767,0
+DA:769,0
+DA:771,0
+DA:773,0
+DA:774,0
+DA:775,0
+DA:776,0
+DA:777,0
+DA:779,0
+DA:780,0
+DA:781,0
+DA:782,0
+BRDA:773,55,0,0
+BRDA:773,55,1,0
+FN:784,System.Void BaD.x86_64CodeGenerator::StoreToMemory(System.String,BaD.IGenerator/RegisterUses)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::StoreToMemory(System.String,BaD.IGenerator/RegisterUses)
+DA:785,0
+DA:786,0
+DA:789,0
+DA:792,0
+DA:795,0
+DA:796,0
+FN:798,System.Void BaD.x86_64CodeGenerator::StoreToMemory(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses,BaD.Type)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::StoreToMemory(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses,BaD.Type)
+DA:799,0
+DA:801,0
+DA:803,0
+DA:805,0
+DA:806,0
+FN:808,System.Void BaD.x86_64CodeGenerator::StoreToMemory(System.Int32,BaD.IGenerator/RegisterUses,BaD.Type)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::StoreToMemory(System.Int32,BaD.IGenerator/RegisterUses,BaD.Type)
+DA:809,0
+DA:810,0
+DA:811,0
+DA:813,0
+DA:814,0
+FN:816,System.Void BaD.x86_64CodeGenerator::GenerateFunctions(BaD.SExpression)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::GenerateFunctions(BaD.SExpression)
+DA:817,0
+DA:818,0
+DA:819,0
+DA:821,0
+DA:822,0
+DA:823,0
+DA:824,0
+DA:825,0
+DA:827,0
+DA:828,0
+DA:830,0
+BRDA:818,7,1,0
+BRDA:821,17,0,0
+BRDA:821,17,1,0
+BRDA:821,33,0,0
+BRDA:821,33,1,0
+BRDA:818,7,0,0
+FN:832,System.Void BaD.x86_64CodeGenerator::GenerateImportSection()
+FNDA:0,System.Void BaD.x86_64CodeGenerator::GenerateImportSection()
+DA:833,0
+DA:835,0
+DA:837,0
+DA:838,0
+DA:839,0
+DA:840,0
+DA:841,0
+DA:842,0
+DA:843,0
+DA:844,0
+DA:845,0
+DA:847,0
+DA:849,0
+DA:850,0
+DA:851,0
+DA:852,0
+DA:853,0
+DA:854,0
+DA:855,0
+DA:856,0
+DA:857,0
+DA:858,0
+DA:859,0
+DA:860,0
+DA:861,0
+DA:862,0
+BRDA:838,199,1,0
+BRDA:842,145,0,0
+BRDA:842,145,1,0
+BRDA:838,199,0,0
+BRDA:849,561,1,0
+BRDA:853,518,1,0
+BRDA:856,446,0,0
+BRDA:856,446,1,0
+BRDA:853,518,0,0
+BRDA:849,561,0,0
+FN:864,System.Void BaD.x86_64CodeGenerator::GenerateCodeSection()
+FNDA:0,System.Void BaD.x86_64CodeGenerator::GenerateCodeSection()
+DA:865,0
+DA:866,0
+DA:869,0
+DA:870,0
+DA:874,0
+DA:875,0
+DA:876,0
+DA:877,0
+DA:878,0
+DA:879,0
+DA:880,0
+DA:881,0
+DA:882,0
+DA:883,0
+DA:884,0
+DA:885,0
+DA:886,0
+DA:887,0
+DA:888,0
+DA:889,0
+DA:890,0
+DA:891,0
+DA:892,0
+DA:893,0
+DA:894,0
+DA:895,0
+DA:896,0
+DA:897,0
+DA:898,0
+BRDA:869,61,1,0
+BRDA:869,61,0,0
+FN:900,System.Void BaD.x86_64CodeGenerator::Generate()
+FNDA:0,System.Void BaD.x86_64CodeGenerator::Generate()
+DA:901,0
+DA:903,0
+DA:904,0
+DA:905,0
+DA:906,0
+DA:907,0
+DA:908,0
+DA:909,0
+DA:910,0
+DA:911,0
+DA:912,0
+DA:913,0
+DA:914,0
+DA:915,0
+DA:916,0
+DA:917,0
+DA:920,0
+DA:921,0
+DA:922,0
+DA:925,0
+DA:927,0
+DA:930,0
+DA:931,0
+DA:932,0
+DA:935,0
+DA:936,0
+DA:937,0
+DA:939,0
+DA:942,0
+DA:943,0
+BRDA:903,83,1,0
+BRDA:903,83,0,0
+BRDA:908,14,0,0
+BRDA:908,14,1,0
+FN:11,System.Void BaD.x86_64CodeGenerator::.ctor(System.String,System.Collections.Generic.List`1<BaD.SExpression>)
+FNDA:0,System.Void BaD.x86_64CodeGenerator::.ctor(System.String,System.Collections.Generic.List`1<BaD.SExpression>)
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:20,0
+DA:49,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,0
+DA:132,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:142,0
+DA:143,0
+DA:144,0
+DA:662,0
+DA:663,0
+DA:664,0
+DA:687,0
+DA:709,0
+DA:710,0
+DA:712,0
+DA:713,0
+DA:716,0
+DA:718,0
+DA:720,0
+DA:721,0
+FN:21,System.Void BaD.x86_64CodeGenerator::.cctor()
+FNDA:0,System.Void BaD.x86_64CodeGenerator::.cctor()
+DA:22,0
+DA:656,0
+LF:644
+LH:0
+BRF:140
+BRH:0
+FNF:51
+FNH:0
+end_of_record
+SF:C:\Users\lords\Documents\Github\BaD\CodeGenerator\Scope.cs
+FN:14,System.Void BaD.Scope::GenerateStack(BaD.SExpression,BaD.IGenerator,System.Boolean)
+FNDA:0,System.Void BaD.Scope::GenerateStack(BaD.SExpression,BaD.IGenerator,System.Boolean)
+DA:15,0
+DA:19,0
+DA:20,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:45,0
+DA:48,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+BRDA:35,141,1,0
+BRDA:37,61,0,0
+BRDA:37,61,1,0
+BRDA:35,141,0,0
+BRDA:26,33,0,0
+BRDA:26,33,1,0
+BRDA:29,77,0,0
+BRDA:29,77,1,0
+FN:61,System.Int32 BaD.Scope::GetArgOffset(System.Int32)
+FNDA:0,System.Int32 BaD.Scope::GetArgOffset(System.Int32)
+DA:62,0
+DA:64,0
+DA:65,0
+FN:67,System.Void BaD.Scope::AddParameter(System.String,System.Int32,BaD.Type)
+FNDA:0,System.Void BaD.Scope::AddParameter(System.String,System.Int32,BaD.Type)
+DA:68,0
+DA:69,0
+DA:70,0
+FN:72,System.Int32 BaD.Scope::GetChildArgOffset(System.Int32)
+FNDA:0,System.Int32 BaD.Scope::GetChildArgOffset(System.Int32)
+DA:73,0
+DA:75,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+BRDA:77,22,0,0
+BRDA:77,22,1,0
+FN:82,System.Int32 BaD.Scope::GetLocalOffset(System.String)
+FNDA:0,System.Int32 BaD.Scope::GetLocalOffset(System.String)
+DA:83,0
+DA:84,0
+DA:85,0
+FN:87,BaD.Type BaD.Scope::GetLocalType(System.String)
+FNDA:0,BaD.Type BaD.Scope::GetLocalType(System.String)
+DA:88,0
+DA:89,0
+DA:90,0
+FN:92,System.Void BaD.Scope::AddLocal(System.String,BaD.Type)
+FNDA:0,System.Void BaD.Scope::AddLocal(System.String,BaD.Type)
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:99,0
+DA:100,0
+DA:103,0
+DA:104,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+BRDA:94,9,0,0
+BRDA:94,9,1,0
+BRDA:96,36,0,0
+BRDA:96,36,1,0
+BRDA:99,68,0,0
+BRDA:99,68,1,0
+BRDA:103,99,0,0
+BRDA:103,99,1,0
+BRDA:108,265,0,0
+BRDA:108,265,1,0
+FN:113,System.Void BaD.Scope::PushTmp(System.Int32)
+FNDA:0,System.Void BaD.Scope::PushTmp(System.Int32)
+DA:114,0
+DA:115,0
+DA:116,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+BRDA:115,19,0,0
+BRDA:115,19,1,0
+BRDA:118,133,0,0
+BRDA:118,133,1,0
+BRDA:123,208,0,0
+BRDA:123,208,1,0
+FN:127,System.Void BaD.Scope::PopTmp(System.Int32)
+FNDA:0,System.Void BaD.Scope::PopTmp(System.Int32)
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,0
+DA:132,0
+DA:133,0
+BRDA:129,20,0,0
+BRDA:129,20,1,0
+FN:135,System.String BaD.Scope::ToString()
+FNDA:0,System.String BaD.Scope::ToString()
+DA:136,0
+DA:137,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:142,0
+DA:144,0
+DA:145,0
+DA:146,0
+DA:147,0
+DA:148,0
+DA:149,0
+BRDA:144,425,1,0
+BRDA:144,425,0,0
+FN:6,System.Void BaD.Scope::.ctor()
+FNDA:0,System.Void BaD.Scope::.ctor()
+DA:7,0
+DA:8,0
+DA:10,0
+DA:11,0
+DA:12,0
+DA:151,0
+DA:152,0
+DA:153,0
+DA:154,0
+DA:155,0
+DA:156,0
+DA:175,0
+DA:176,0
+DA:177,0
+FN:169,System.Boolean BaD.Scope/StackSpace::Bound(System.Int32)
+FNDA:0,System.Boolean BaD.Scope/StackSpace::Bound(System.Int32)
+DA:170,0
+DA:171,0
+DA:172,0
+BRDA:171,8,0,0
+BRDA:171,8,1,0
+FN:161,System.Void BaD.Scope/StackSpace::.ctor(System.Int32,System.Int32)
+FNDA:0,System.Void BaD.Scope/StackSpace::.ctor(System.Int32,System.Int32)
+DA:162,0
+DA:163,0
+DA:164,0
+DA:165,0
+LF:114
+LH:0
+BRF:32
+BRH:0
+FNF:13
+FNH:0
+end_of_record
+SF:C:\Users\lords\Documents\Github\BaD\Lexer\CharacterSource.cs
+FN:17,System.String BaD.StreamPosition::ToString()
+FNDA:0,System.String BaD.StreamPosition::ToString()
+DA:18,0
+DA:19,0
+DA:20,0
+FN:11,System.Void BaD.StreamPosition::.ctor(System.Int32,System.Int32)
+FNDA:152,System.Void BaD.StreamPosition::.ctor(System.Int32,System.Int32)
+DA:12,152
+DA:13,152
+DA:14,152
+DA:15,152
+FN:35,System.Void BaD.CharacterSourceException::.ctor(System.String)
+FNDA:6,System.Void BaD.CharacterSourceException::.ctor(System.String)
+DA:36,6
+FN:55,System.Void BaD.StringCharacterSource::Unget(System.Char)
+FNDA:6,System.Void BaD.StringCharacterSource::Unget(System.Char)
+DA:56,6
+DA:57,6
+DA:58,6
+DA:59,1
+DA:60,1
+DA:61,1
+DA:62,1
+DA:64,5
+DA:65,5
+DA:66,5
+DA:67,6
+BRDA:58,28,0,5
+BRDA:58,33,0,5
+BRDA:58,41,0,5
+BRDA:58,28,1,1
+BRDA:58,33,1,1
+BRDA:58,41,1,1
+BRDA:58,56,0,1
+BRDA:58,56,1,5
+FN:69,BaD.StreamPosition BaD.StringCharacterSource::GetStreamPosition()
+FNDA:69,BaD.StreamPosition BaD.StringCharacterSource::GetStreamPosition()
+DA:70,69
+DA:71,69
+DA:72,69
+FN:74,System.Char BaD.StringCharacterSource::Peek()
+FNDA:661,System.Char BaD.StringCharacterSource::Peek()
+DA:75,661
+DA:76,661
+DA:77,10
+DA:78,10
+DA:80,651
+DA:81,0
+DA:82,0
+DA:84,651
+DA:85,661
+BRDA:76,17,0,10
+BRDA:76,17,1,651
+BRDA:80,59,0,0
+BRDA:80,59,1,651
+FN:87,System.Char BaD.StringCharacterSource::Get()
+FNDA:265,System.Char BaD.StringCharacterSource::Get()
+DA:88,265
+DA:89,265
+DA:90,5
+DA:91,5
+DA:92,5
+DA:93,5
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:99,5
+DA:100,5
+DA:101,5
+DA:102,5
+DA:104,260
+DA:105,0
+DA:106,0
+DA:108,260
+DA:109,3
+DA:110,3
+DA:111,3
+DA:112,3
+DA:114,257
+DA:115,257
+DA:116,257
+DA:117,260
+DA:118,265
+BRDA:89,17,0,5
+BRDA:93,54,0,5
+BRDA:93,59,0,5
+BRDA:93,67,0,5
+BRDA:93,54,1,0
+BRDA:93,59,1,0
+BRDA:93,67,1,0
+BRDA:93,82,0,0
+BRDA:93,82,1,5
+BRDA:89,17,1,260
+BRDA:104,158,0,0
+BRDA:104,158,1,260
+BRDA:108,197,0,3
+BRDA:108,197,1,257
+FN:120,System.Boolean BaD.StringCharacterSource::IsEof()
+FNDA:407,System.Boolean BaD.StringCharacterSource::IsEof()
+DA:121,407
+DA:122,407
+DA:123,407
+BRDA:122,18,0,59
+BRDA:122,18,1,348
+FN:125,System.Char BaD.StringCharacterSource::Peek(System.Int32)
+FNDA:4,System.Char BaD.StringCharacterSource::Peek(System.Int32)
+DA:126,4
+DA:127,4
+DA:128,0
+DA:129,0
+DA:131,4
+DA:132,1
+DA:133,1
+DA:135,3
+DA:136,3
+BRDA:127,17,0,0
+BRDA:127,17,1,4
+BRDA:131,61,0,1
+BRDA:131,61,1,3
+FN:138,System.Boolean BaD.StringCharacterSource::IsValidPeek(System.Int32)
+FNDA:5,System.Boolean BaD.StringCharacterSource::IsValidPeek(System.Int32)
+DA:139,5
+DA:140,5
+DA:141,5
+FN:44,System.Void BaD.StringCharacterSource::.ctor(System.String)
+FNDA:63,System.Void BaD.StringCharacterSource::.ctor(System.String)
+DA:45,63
+DA:47,63
+DA:48,63
+DA:49,63
+DA:50,63
+DA:51,63
+DA:52,63
+DA:53,63
+FN:156,System.Void BaD.FileCharacterSource::Unget(System.Char)
+FNDA:6,System.Void BaD.FileCharacterSource::Unget(System.Char)
+DA:157,6
+DA:158,6
+DA:159,1
+DA:160,1
+DA:161,1
+DA:162,1
+DA:164,5
+DA:165,5
+DA:166,5
+DA:167,6
+DA:168,6
+BRDA:158,4,0,5
+BRDA:158,9,0,5
+BRDA:158,17,0,5
+BRDA:158,4,1,1
+BRDA:158,9,1,1
+BRDA:158,17,1,1
+BRDA:158,32,0,1
+BRDA:158,32,1,5
+FN:170,BaD.StreamPosition BaD.FileCharacterSource::GetStreamPosition()
+FNDA:6,BaD.StreamPosition BaD.FileCharacterSource::GetStreamPosition()
+DA:171,6
+DA:172,6
+DA:173,6
+FN:175,System.Char BaD.FileCharacterSource::Peek()
+FNDA:36,System.Char BaD.FileCharacterSource::Peek()
+DA:176,36
+DA:177,36
+DA:178,10
+DA:179,10
+DA:181,26
+DA:182,26
+DA:183,0
+DA:184,0
+DA:186,26
+DA:187,36
+BRDA:177,17,0,10
+BRDA:177,17,1,26
+BRDA:182,53,0,0
+BRDA:182,53,1,26
+FN:189,System.Char BaD.FileCharacterSource::Peek(System.Int32)
+FNDA:4,System.Char BaD.FileCharacterSource::Peek(System.Int32)
+DA:190,4
+DA:191,4
+DA:192,0
+DA:193,0
+DA:196,4
+DA:198,4
+DA:199,4
+DA:200,4
+DA:201,4
+DA:202,4
+DA:203,1
+DA:204,1
+DA:207,3
+DA:208,3
+DA:210,3
+DA:211,3
+DA:212,0
+DA:213,0
+DA:215,3
+DA:216,3
+BRDA:191,17,0,0
+BRDA:191,17,1,4
+BRDA:198,60,0,4
+BRDA:202,97,0,1
+BRDA:202,97,1,3
+BRDA:198,60,1,3
+BRDA:211,156,0,0
+BRDA:211,156,1,3
+FN:218,System.Char BaD.FileCharacterSource::Get()
+FNDA:20,System.Char BaD.FileCharacterSource::Get()
+DA:219,20
+DA:220,20
+DA:221,8
+DA:222,8
+DA:223,8
+DA:224,8
+DA:225,0
+DA:226,0
+DA:227,0
+DA:228,0
+DA:230,8
+DA:231,8
+DA:232,8
+DA:233,8
+DA:235,12
+DA:236,12
+DA:237,0
+DA:238,0
+DA:240,12
+DA:241,1
+DA:242,1
+DA:243,1
+DA:244,1
+DA:246,11
+DA:247,11
+DA:248,11
+DA:249,12
+DA:250,20
+BRDA:220,17,0,8
+BRDA:224,54,0,8
+BRDA:224,59,0,8
+BRDA:224,67,0,8
+BRDA:224,54,1,0
+BRDA:224,59,1,0
+BRDA:224,67,1,0
+BRDA:224,82,0,0
+BRDA:224,82,1,8
+BRDA:220,17,1,12
+BRDA:236,150,0,0
+BRDA:236,150,1,12
+BRDA:240,173,0,1
+BRDA:240,173,1,11
+FN:252,System.Boolean BaD.FileCharacterSource::IsEof()
+FNDA:28,System.Boolean BaD.FileCharacterSource::IsEof()
+DA:253,28
+DA:254,28
+DA:255,28
+FN:257,System.Boolean BaD.FileCharacterSource::IsValidPeek(System.Int32)
+FNDA:0,System.Boolean BaD.FileCharacterSource::IsValidPeek(System.Int32)
+DA:258,0
+DA:259,0
+DA:260,0
+FN:146,System.Void BaD.FileCharacterSource::.ctor(System.String)
+FNDA:2,System.Void BaD.FileCharacterSource::.ctor(System.String)
+DA:147,2
+DA:148,2
+DA:149,2
+DA:151,2
+DA:152,2
+DA:153,2
+DA:154,2
+LF:166
+LH:138
+BRF:66
+BRH:51
+FNF:19
+FNH:17
+end_of_record
+SF:C:\Users\lords\Documents\Github\BaD\Lexer\Lexer.cs
+FN:6,System.Void BaD.LexerException::.ctor(System.String)
+FNDA:6,System.Void BaD.LexerException::.ctor(System.String)
+DA:7,6
+FN:12,BaD.ICharacterSource BaD.Lexer::get_source()
+FNDA:1494,BaD.ICharacterSource BaD.Lexer::get_source()
+DA:13,1494
+FN:22,System.Int32 BaD.Lexer::get_Line()
+FNDA:139,System.Int32 BaD.Lexer::get_Line()
+DA:23,139
+FN:23,System.Int32 BaD.Lexer::get_Column()
+FNDA:139,System.Int32 BaD.Lexer::get_Column()
+DA:24,139
+FN:78,System.String BaD.Lexer::GetStreamPosition()
+FNDA:0,System.String BaD.Lexer::GetStreamPosition()
+DA:79,0
+DA:80,0
+DA:81,0
+FN:83,BaD.Token BaD.Lexer::NextToken()
+FNDA:71,BaD.Token BaD.Lexer::NextToken()
+DA:84,71
+DA:85,71
+DA:87,76
+DA:88,5
+DA:90,71
+DA:91,71
+DA:92,71
+DA:95,71
+DA:96,2
+DA:99,69
+DA:100,1
+DA:101,21
+DA:102,20
+DA:103,1
+DA:107,68
+DA:108,3
+DA:109,3
+DA:112,65
+DA:113,36
+DA:115,29
+DA:116,2
+DA:118,27
+DA:119,8
+DA:122,19
+DA:123,69
+BRDA:87,84,1,5
+BRDA:87,61,0,74
+BRDA:87,61,1,2
+BRDA:87,84,0,71
+BRDA:95,137,0,2
+BRDA:95,137,1,69
+BRDA:99,183,0,2
+BRDA:99,197,0,1
+BRDA:99,183,1,68
+BRDA:99,197,1,68
+BRDA:99,222,0,1
+BRDA:101,277,1,20
+BRDA:101,250,0,21
+BRDA:101,250,1,0
+BRDA:101,277,0,1
+BRDA:99,222,1,68
+BRDA:107,305,0,3
+BRDA:107,319,0,2
+BRDA:107,305,1,67
+BRDA:107,319,1,67
+BRDA:107,338,0,67
+BRDA:107,338,1,1
+BRDA:107,363,0,3
+BRDA:107,363,1,65
+BRDA:112,396,0,36
+BRDA:112,396,1,29
+BRDA:115,427,0,2
+BRDA:115,427,1,27
+BRDA:118,458,0,8
+BRDA:118,458,1,19
+FN:125,BaD.Token BaD.Lexer::GetCharLiteral()
+FNDA:2,BaD.Token BaD.Lexer::GetCharLiteral()
+DA:126,2
+DA:127,2
+DA:128,2
+DA:130,2
+DA:131,1
+DA:132,1
+DA:136,1
+DA:137,1
+DA:138,1
+BRDA:130,31,0,1
+BRDA:130,31,1,1
+BRDA:130,56,0,1
+BRDA:130,56,1,1
+FN:140,BaD.Token BaD.Lexer::Peek()
+FNDA:3,BaD.Token BaD.Lexer::Peek()
+DA:141,3
+DA:143,3
+DA:146,3
+DA:147,26
+DA:148,10
+DA:149,10
+DA:150,10
+DA:152,3
+DA:153,3
+BRDA:147,60,1,10
+BRDA:147,60,0,3
+FN:155,BaD.Token BaD.Lexer::GetStringLiteral()
+FNDA:8,BaD.Token BaD.Lexer::GetStringLiteral()
+DA:156,8
+DA:157,8
+DA:158,8
+DA:159,19
+DA:160,12
+DA:161,12
+DA:162,11
+DA:163,7
+DA:165,7
+DA:166,7
+DA:167,7
+BRDA:159,56,1,12
+BRDA:159,56,0,7
+FN:169,System.Char BaD.Lexer::GetChar()
+FNDA:14,System.Char BaD.Lexer::GetChar()
+DA:170,14
+DA:173,14
+DA:174,7
+DA:175,7
+DA:176,7
+DA:177,7
+DA:178,7
+DA:179,1
+DA:180,1
+DA:181,1
+DA:182,1
+DA:183,1
+DA:184,1
+DA:185,7
+DA:186,7
+DA:187,1
+DA:188,7
+DA:190,7
+DA:191,13
+BRDA:173,18,0,7
+BRDA:177,55,0,3
+BRDA:177,60,0,2
+BRDA:177,67,0,1
+BRDA:177,55,1,4
+BRDA:177,81,0,3
+BRDA:177,88,0,2
+BRDA:177,81,1,1
+BRDA:177,95,1,1
+BRDA:177,88,1,1
+BRDA:177,74,1,1
+BRDA:177,67,1,1
+BRDA:177,60,1,1
+BRDA:177,74,0,1
+BRDA:177,95,0,1
+BRDA:173,18,1,7
+FN:193,BaD.Token BaD.Lexer::GetNumber()
+FNDA:3,BaD.Token BaD.Lexer::GetNumber()
+DA:194,3
+DA:196,3
+DA:197,3
+DA:198,1
+DA:199,1
+DA:200,1
+DA:201,1
+DA:203,3
+DA:204,12
+DA:205,9
+DA:206,9
+DA:207,9
+DA:209,3
+DA:210,3
+DA:211,3
+BRDA:197,21,0,1
+BRDA:197,21,1,3
+BRDA:204,104,1,9
+BRDA:204,79,0,9
+BRDA:204,79,1,3
+BRDA:204,104,0,3
+FN:213,BaD.Token BaD.Lexer::GetOperator()
+FNDA:19,BaD.Token BaD.Lexer::GetOperator()
+DA:214,19
+DA:216,19
+DA:218,23
+DA:219,23
+DA:220,23
+DA:222,23
+DA:224,23
+DA:225,19
+DA:227,19
+DA:228,4
+DA:229,4
+DA:230,4
+DA:231,4
+DA:232,4
+DA:236,15
+DA:238,4
+DA:240,0
+DA:241,19
+BRDA:218,308,1,23
+BRDA:224,75,0,19
+BRDA:227,92,0,5
+BRDA:227,92,1,14
+BRDA:227,145,0,4
+BRDA:227,145,1,15
+BRDA:224,75,1,4
+BRDA:218,262,0,23
+BRDA:218,280,0,23
+BRDA:218,262,1,0
+BRDA:218,280,1,0
+BRDA:218,308,0,0
+FN:243,BaD.Token BaD.Lexer::GetIdentifier()
+FNDA:36,BaD.Token BaD.Lexer::GetIdentifier()
+DA:244,36
+DA:245,36
+DA:246,211
+DA:247,175
+DA:248,175
+DA:249,175
+DA:250,36
+DA:251,26
+DA:252,26
+DA:256,10
+DA:257,1
+DA:258,9
+DA:259,1
+DA:261,8
+DA:262,36
+BRDA:246,63,1,175
+BRDA:246,40,0,178
+BRDA:246,40,1,33
+BRDA:246,63,0,36
+BRDA:250,86,0,26
+BRDA:250,86,1,10
+BRDA:256,137,0,1
+BRDA:256,137,1,9
+BRDA:258,181,0,1
+BRDA:258,181,1,8
+FN:14,System.Void BaD.Lexer::.ctor(BaD.ICharacterSource)
+FNDA:63,System.Void BaD.Lexer::.ctor(BaD.ICharacterSource)
+DA:15,63
+DA:17,63
+DA:18,63
+DA:19,63
+DA:20,63
+DA:21,63
+DA:26,63
+DA:27,63
+DA:28,63
+DA:29,63
+DA:30,63
+DA:31,63
+DA:32,63
+DA:33,63
+DA:34,63
+DA:35,63
+DA:36,63
+DA:37,63
+DA:38,63
+DA:39,63
+DA:40,63
+DA:41,63
+DA:42,63
+DA:43,63
+DA:44,63
+DA:45,63
+DA:46,63
+DA:47,63
+DA:48,63
+DA:49,63
+DA:50,63
+DA:51,63
+DA:52,63
+DA:53,63
+DA:55,63
+DA:56,63
+DA:57,63
+DA:58,63
+DA:59,63
+DA:60,63
+DA:61,63
+DA:62,63
+DA:63,63
+DA:64,63
+DA:65,63
+DA:66,63
+DA:67,63
+DA:68,63
+DA:69,63
+DA:70,63
+DA:71,63
+DA:72,63
+DA:73,63
+DA:74,63
+DA:75,63
+LF:183
+LH:179
+BRF:82
+BRH:78
+FNF:14
+FNH:13
+end_of_record
+SF:C:\Users\lords\Documents\Github\BaD\Lexer\Token.cs
+FN:38,BaD.TokenType BaD.Token::get_Type()
+FNDA:74,BaD.TokenType BaD.Token::get_Type()
+DA:39,74
+FN:39,System.String BaD.Token::get_Value()
+FNDA:20,System.String BaD.Token::get_Value()
+DA:40,20
+FN:49,System.String BaD.Token::ToString()
+FNDA:3,System.String BaD.Token::ToString()
+DA:50,3
+DA:51,3
+DA:52,3
+FN:54,System.Boolean BaD.Token::Equals(System.Object)
+FNDA:3,System.Boolean BaD.Token::Equals(System.Object)
+DA:55,3
+DA:56,3
+DA:57,3
+DA:58,3
+DA:60,0
+DA:61,3
+BRDA:56,14,0,3
+BRDA:58,29,0,3
+BRDA:58,29,1,0
+BRDA:56,14,1,0
+FN:63,System.Int32 BaD.Token::GetHashCode()
+FNDA:0,System.Int32 BaD.Token::GetHashCode()
+DA:64,0
+DA:65,0
+DA:66,0
+FN:68,BaD.StreamPosition BaD.Token::get_Position()
+FNDA:8,BaD.StreamPosition BaD.Token::get_Position()
+DA:69,8
+FN:41,System.Void BaD.Token::.ctor(BaD.TokenType,System.String,System.Int32,System.Int32)
+FNDA:77,System.Void BaD.Token::.ctor(BaD.TokenType,System.String,System.Int32,System.Int32)
+DA:42,77
+DA:43,77
+DA:44,77
+DA:45,77
+DA:46,77
+DA:47,77
+FN:73,System.Int64 BaD.IntLiteral::get_IntValue()
+FNDA:3,System.Int64 BaD.IntLiteral::get_IntValue()
+DA:74,3
+FN:75,System.Void BaD.IntLiteral::.ctor(System.Int64,System.Int32,System.Int32)
+FNDA:3,System.Void BaD.IntLiteral::.ctor(System.Int64,System.Int32,System.Int32)
+DA:76,3
+DA:77,3
+DA:78,3
+DA:79,3
+FN:83,System.Char BaD.CharLiteral::get_CharValue()
+FNDA:1,System.Char BaD.CharLiteral::get_CharValue()
+DA:84,1
+FN:85,System.Void BaD.CharLiteral::.ctor(System.Char,System.Int32,System.Int32)
+FNDA:1,System.Void BaD.CharLiteral::.ctor(System.Char,System.Int32,System.Int32)
+DA:86,1
+DA:87,1
+DA:88,1
+DA:89,1
+FN:93,System.Boolean BaD.BoolLiteral::get_BoolValue()
+FNDA:2,System.Boolean BaD.BoolLiteral::get_BoolValue()
+DA:94,2
+FN:95,System.Void BaD.BoolLiteral::.ctor(System.Boolean,System.Int32,System.Int32)
+FNDA:2,System.Void BaD.BoolLiteral::.ctor(System.Boolean,System.Int32,System.Int32)
+DA:96,2
+DA:97,2
+DA:98,2
+DA:99,2
+FN:103,System.String BaD.StringLiteral::get_StringValue()
+FNDA:7,System.String BaD.StringLiteral::get_StringValue()
+DA:104,7
+FN:105,System.Void BaD.StringLiteral::.ctor(System.String,System.Int32,System.Int32)
+FNDA:7,System.Void BaD.StringLiteral::.ctor(System.String,System.Int32,System.Int32)
+DA:106,7
+DA:107,7
+DA:108,7
+DA:109,7
+LF:41
+LH:37
+BRF:4
+BRH:2
+FNF:15
+FNH:14
+end_of_record
+SF:C:\Users\lords\Documents\Github\BaD\Parser\Parser.cs
+FN:21,System.Boolean BaD.Parser::get_IsEof()
+FNDA:0,System.Boolean BaD.Parser::get_IsEof()
+DA:22,0
+FN:24,BaD.SExpression BaD.Parser::Parse()
+FNDA:0,BaD.SExpression BaD.Parser::Parse()
+DA:25,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:32,0
+DA:33,0
+BRDA:27,23,0,0
+BRDA:27,23,1,0
+FN:35,BaD.SExpression BaD.Parser::ParseSExpression()
+FNDA:0,BaD.SExpression BaD.Parser::ParseSExpression()
+DA:36,0
+DA:39,0
+DA:42,0
+DA:46,0
+DA:48,0
+DA:50,0
+DA:53,0
+DA:56,0
+DA:57,0
+DA:60,0
+DA:62,0
+DA:64,0
+DA:66,0
+DA:68,0
+DA:70,0
+DA:72,0
+DA:74,0
+DA:76,0
+DA:81,0
+DA:88,0
+DA:91,0
+DA:93,0
+DA:95,0
+DA:97,0
+DA:99,0
+DA:101,0
+DA:103,0
+DA:105,0
+DA:107,0
+DA:109,0
+DA:112,0
+DA:114,0
+BRDA:42,25,0,0
+BRDA:42,33,2,0
+BRDA:42,33,1,0
+BRDA:42,33,4,0
+BRDA:42,25,1,0
+BRDA:57,131,22,0
+BRDA:57,131,27,0
+BRDA:57,131,20,0
+BRDA:57,131,18,0
+BRDA:57,131,17,0
+BRDA:57,131,35,0
+BRDA:57,131,19,0
+BRDA:57,131,16,0
+BRDA:57,131,32,0
+BRDA:57,131,1,0
+BRDA:57,131,2,0
+BRDA:57,131,3,0
+BRDA:57,131,4,0
+BRDA:57,131,5,0
+BRDA:57,131,6,0
+BRDA:57,131,7,0
+BRDA:57,131,8,0
+BRDA:57,131,9,0
+BRDA:57,131,10,0
+BRDA:57,131,30,0
+BRDA:57,131,31,0
+BRDA:57,131,13,0
+BRDA:57,131,14,0
+BRDA:57,131,28,0
+BRDA:57,131,15,0
+BRDA:57,131,24,0
+BRDA:57,131,23,0
+BRDA:57,131,25,0
+BRDA:57,131,26,0
+BRDA:57,131,0,0
+BRDA:57,131,11,0
+BRDA:57,131,12,0
+BRDA:57,131,21,0
+BRDA:57,131,29,0
+BRDA:57,131,33,0
+BRDA:57,131,34,0
+BRDA:109,536,0,0
+BRDA:109,536,1,0
+BRDA:42,33,0,0
+BRDA:42,33,3,0
+FN:116,BaD.SExpression BaD.Parser::ParseCast(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseCast(BaD.Token)
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+FN:124,BaD.SExpression BaD.Parser::ParseAssignPtr(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseAssignPtr(BaD.Token)
+DA:125,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,0
+FN:133,BaD.SExpression BaD.Parser::ParseList(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseList(BaD.Token)
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:142,0
+BRDA:136,49,1,0
+BRDA:136,49,0,0
+FN:144,BaD.SExpression BaD.Parser::ParseWhile(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseWhile(BaD.Token)
+DA:145,0
+DA:146,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+FN:153,BaD.SExpression BaD.Parser::ParseLiteral()
+FNDA:0,BaD.SExpression BaD.Parser::ParseLiteral()
+DA:154,0
+DA:155,0
+DA:156,0
+DA:157,0
+DA:158,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:162,0
+DA:163,0
+DA:164,0
+BRDA:156,25,0,0
+BRDA:156,35,0,0
+BRDA:156,45,0,0
+BRDA:156,25,1,0
+BRDA:156,35,1,0
+BRDA:156,45,1,0
+BRDA:156,57,1,0
+BRDA:156,57,0,0
+BRDA:162,162,0,0
+BRDA:162,162,1,0
+FN:166,BaD.SExpression BaD.Parser::ParseDereference(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseDereference(BaD.Token)
+DA:167,0
+DA:168,0
+DA:169,0
+DA:170,0
+DA:171,0
+FN:173,BaD.SExpression BaD.Parser::ParseIdentifier()
+FNDA:0,BaD.SExpression BaD.Parser::ParseIdentifier()
+DA:174,0
+DA:175,0
+DA:176,0
+DA:177,0
+FN:179,BaD.Type BaD.Parser::ParseType()
+FNDA:0,BaD.Type BaD.Parser::ParseType()
+DA:180,0
+DA:181,0
+DA:183,0
+DA:184,0
+DA:185,0
+DA:188,0
+DA:189,0
+DA:190,0
+DA:193,0
+DA:194,0
+DA:195,0
+DA:198,0
+DA:199,0
+DA:200,0
+DA:202,0
+DA:203,0
+DA:204,0
+DA:206,0
+DA:207,0
+DA:208,0
+DA:210,0
+DA:211,0
+DA:212,0
+DA:214,0
+DA:215,0
+DA:216,0
+DA:218,0
+DA:219,0
+DA:220,0
+DA:222,0
+DA:223,0
+DA:224,0
+DA:226,0
+DA:227,0
+DA:228,0
+DA:229,0
+DA:230,0
+DA:231,0
+DA:233,0
+DA:234,0
+DA:236,0
+DA:237,0
+DA:239,0
+DA:242,0
+DA:245,0
+DA:246,0
+DA:247,0
+DA:248,0
+DA:249,0
+DA:252,0
+DA:254,0
+DA:257,0
+DA:260,0
+DA:264,0
+DA:267,0
+DA:268,0
+DA:269,0
+BRDA:183,24,0,0
+BRDA:183,24,1,0
+BRDA:188,50,0,0
+BRDA:188,50,1,0
+BRDA:193,78,0,0
+BRDA:193,78,1,0
+BRDA:198,107,0,0
+BRDA:198,107,1,0
+BRDA:202,136,0,0
+BRDA:202,136,1,0
+BRDA:206,164,0,0
+BRDA:206,164,1,0
+BRDA:210,192,0,0
+BRDA:210,192,1,0
+BRDA:214,220,0,0
+BRDA:214,220,1,0
+BRDA:218,248,0,0
+BRDA:218,248,1,0
+BRDA:222,277,0,0
+BRDA:222,277,1,0
+BRDA:226,306,0,0
+BRDA:229,338,0,0
+BRDA:229,338,1,0
+BRDA:236,385,0,0
+BRDA:245,480,1,0
+BRDA:245,480,0,0
+BRDA:236,385,1,0
+BRDA:226,306,1,0
+BRDA:268,593,0,0
+BRDA:268,593,1,0
+FN:271,System.Void BaD.Parser::CheckNextToken(BaD.TokenType)
+FNDA:0,System.Void BaD.Parser::CheckNextToken(BaD.TokenType)
+DA:272,0
+DA:273,0
+DA:274,0
+DA:275,0
+DA:276,0
+DA:278,0
+BRDA:274,27,0,0
+BRDA:274,27,1,0
+FN:280,BaD.SExpression BaD.Parser::ParseAddressOf(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseAddressOf(BaD.Token)
+DA:281,0
+DA:283,0
+DA:284,0
+DA:285,0
+DA:286,0
+DA:288,0
+DA:289,0
+DA:290,0
+DA:291,0
+BRDA:284,28,0,0
+BRDA:284,28,1,0
+FN:293,BaD.SExpression BaD.Parser::ParseFunctionCall(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseFunctionCall(BaD.Token)
+DA:294,0
+DA:296,0
+DA:299,0
+DA:301,0
+DA:302,0
+DA:303,0
+DA:304,0
+DA:305,0
+DA:307,0
+DA:308,0
+BRDA:301,56,1,0
+BRDA:301,56,0,0
+FN:310,BaD.SExpression BaD.Parser::ParseNot(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseNot(BaD.Token)
+DA:311,0
+DA:312,0
+DA:313,0
+DA:314,0
+DA:315,0
+FN:317,BaD.SExpression BaD.Parser::ParseArithmetic(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseArithmetic(BaD.Token)
+DA:318,0
+DA:319,0
+DA:320,0
+DA:321,0
+DA:322,0
+DA:323,0
+FN:325,BaD.SExpression BaD.Parser::ParseComparison(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseComparison(BaD.Token)
+DA:326,0
+DA:327,0
+DA:328,0
+DA:329,0
+DA:330,0
+DA:331,0
+FN:333,BaD.SExpression BaD.Parser::ParseLogical(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseLogical(BaD.Token)
+DA:334,0
+DA:335,0
+DA:336,0
+DA:337,0
+DA:338,0
+DA:339,0
+FN:342,BaD.SExpression BaD.Parser::ParseFunction(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseFunction(BaD.Token)
+DA:343,0
+DA:345,0
+DA:346,0
+DA:347,0
+DA:348,0
+DA:351,0
+DA:354,0
+DA:355,0
+DA:357,0
+DA:358,0
+DA:360,0
+DA:361,0
+DA:362,0
+DA:363,0
+DA:364,0
+DA:365,0
+DA:367,0
+DA:368,0
+DA:369,0
+DA:372,0
+DA:375,0
+DA:379,0
+DA:380,0
+DA:381,0
+DA:382,0
+DA:383,0
+DA:384,0
+DA:386,0
+DA:387,0
+BRDA:346,30,0,0
+BRDA:346,30,1,0
+BRDA:357,198,1,0
+BRDA:363,121,0,0
+BRDA:363,121,1,0
+BRDA:357,198,0,0
+BRDA:380,291,1,0
+BRDA:380,259,0,0
+BRDA:380,259,1,0
+BRDA:380,291,0,0
+FN:389,BaD.SExpression BaD.Parser::ParseExtern(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseExtern(BaD.Token)
+DA:390,0
+DA:392,0
+DA:393,0
+DA:394,0
+DA:395,0
+DA:398,0
+DA:400,0
+DA:402,0
+DA:404,0
+DA:406,0
+DA:407,0
+DA:409,0
+DA:410,0
+DA:411,0
+DA:415,0
+DA:416,0
+DA:417,0
+DA:418,0
+DA:421,0
+DA:424,0
+DA:427,0
+DA:428,0
+DA:429,0
+DA:430,0
+DA:433,0
+DA:434,0
+DA:436,0
+DA:438,0
+DA:439,0
+BRDA:393,30,0,0
+BRDA:393,30,1,0
+BRDA:406,132,0,0
+BRDA:415,196,1,0
+BRDA:406,132,1,0
+BRDA:415,196,0,0
+BRDA:428,228,0,0
+BRDA:428,238,0,0
+BRDA:428,228,1,0
+BRDA:428,238,1,0
+BRDA:428,259,0,0
+BRDA:428,259,1,0
+FN:441,BaD.SExpression BaD.Parser::ParseReturn(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseReturn(BaD.Token)
+DA:442,0
+DA:443,0
+DA:444,0
+DA:445,0
+DA:446,0
+FN:448,BaD.SExpression BaD.Parser::ParseIf(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseIf(BaD.Token)
+DA:449,0
+DA:450,0
+DA:451,0
+DA:455,0
+DA:456,0
+DA:457,0
+DA:458,0
+DA:459,0
+DA:460,0
+BRDA:456,42,0,0
+BRDA:456,42,1,0
+FN:463,BaD.SExpression BaD.Parser::ParseVarDec(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseVarDec(BaD.Token)
+DA:464,0
+DA:465,0
+DA:466,0
+DA:467,0
+DA:468,0
+DA:469,0
+DA:471,0
+DA:472,0
+DA:473,0
+DA:474,0
+BRDA:467,35,0,0
+BRDA:469,45,0,0
+BRDA:469,45,1,0
+BRDA:467,35,1,0
+FN:476,BaD.SExpression BaD.Parser::ParseAssign(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseAssign(BaD.Token)
+DA:477,0
+DA:478,0
+DA:479,0
+DA:480,0
+DA:481,0
+DA:483,0
+DA:484,0
+DA:485,0
+DA:486,0
+DA:487,0
+BRDA:479,28,0,0
+BRDA:479,28,1,0
+FN:489,BaD.SExpression BaD.Parser::ParseBlock(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseBlock(BaD.Token)
+DA:490,0
+DA:491,0
+DA:492,0
+DA:493,0
+DA:494,0
+DA:495,0
+DA:496,0
+DA:497,0
+DA:498,0
+BRDA:492,49,1,0
+BRDA:492,49,0,0
+FN:500,BaD.SExpression BaD.Parser::ParseSizeOf(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseSizeOf(BaD.Token)
+DA:501,0
+DA:502,0
+DA:503,0
+DA:504,0
+DA:505,0
+FN:507,BaD.SExpression BaD.Parser::ParseIndex(BaD.Token)
+FNDA:0,BaD.SExpression BaD.Parser::ParseIndex(BaD.Token)
+DA:508,0
+DA:509,0
+DA:510,0
+DA:511,0
+DA:512,0
+DA:513,0
+FN:16,System.Void BaD.Parser::.ctor(BaD.Lexer)
+FNDA:0,System.Void BaD.Parser::.ctor(BaD.Lexer)
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+FN:11,System.Void BaD.Parser/ParserException::.ctor(System.String,BaD.StreamPosition)
+FNDA:0,System.Void BaD.Parser/ParserException::.ctor(System.String,BaD.StreamPosition)
+DA:12,0
+LF:309
+LH:0
+BRF:127
+BRH:0
+FNF:29
+FNH:0
+end_of_record
+SF:C:\Users\lords\Documents\Github\BaD\Parser\SExpression.cs
+FN:41,System.Void BaD.SExpressionVisitor::Visit(BaD.SExpression)
+FNDA:0,System.Void BaD.SExpressionVisitor::Visit(BaD.SExpression)
+DA:42,0
+DA:43,0
+DA:45,0
+DA:46,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+BRDA:45,13,0,0
+BRDA:48,138,1,0
+BRDA:51,41,1,0
+BRDA:54,122,1,0
+BRDA:56,86,0,0
+BRDA:56,86,1,0
+BRDA:54,122,0,0
+BRDA:45,13,1,0
+BRDA:51,41,0,0
+BRDA:48,138,0,0
+FN:35,System.Void BaD.SExpressionVisitor::.ctor(System.Func`2<BaD.SExpression,System.Collections.Generic.List`1<BaD.SExpression>>)
+FNDA:0,System.Void BaD.SExpressionVisitor::.ctor(System.Func`2<BaD.SExpression,System.Collections.Generic.List`1<BaD.SExpression>>)
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+FN:71,System.Collections.Generic.List`1<BaD.SExpression> BaD.SExpression::get_Children()
+FNDA:0,System.Collections.Generic.List`1<BaD.SExpression> BaD.SExpression::get_Children()
+DA:72,0
+FN:75,System.Int32 BaD.SExpression::GetTempVarSize()
+FNDA:0,System.Int32 BaD.SExpression::GetTempVarSize()
+DA:76,0
+DA:77,0
+DA:78,0
+FN:81,System.Int32 BaD.SExpression::GetLocalSize()
+FNDA:0,System.Int32 BaD.SExpression::GetLocalSize()
+DA:82,0
+DA:83,0
+DA:84,0
+FN:88,BaD.Type BaD.SExpression::get_ResultType()
+FNDA:0,BaD.Type BaD.SExpression::get_ResultType()
+DA:89,0
+FN:90,BaD.StreamPosition BaD.SExpression::get_StartPosition()
+FNDA:0,BaD.StreamPosition BaD.SExpression::get_StartPosition()
+DA:91,0
+FN:94,System.Int32 BaD.SExpression::GetTempVarSize(BaD.SExpression)
+FNDA:0,System.Int32 BaD.SExpression::GetTempVarSize(BaD.SExpression)
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+BRDA:96,12,0,0
+BRDA:96,12,1,0
+BRDA:101,106,1,0
+BRDA:103,53,0,0
+BRDA:103,53,1,0
+BRDA:101,106,0,0
+FN:65,System.Void BaD.SExpression::.ctor(BaD.StreamPosition,System.Collections.Generic.List`1<BaD.SExpression>)
+FNDA:0,System.Void BaD.SExpression::.ctor(BaD.StreamPosition,System.Collections.Generic.List`1<BaD.SExpression>)
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+FN:114,System.String BaD.StringLiteralExpression::get_Value()
+FNDA:0,System.String BaD.StringLiteralExpression::get_Value()
+DA:115,0
+FN:122,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.StringLiteralExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.StringLiteralExpression::GenerateCode(BaD.IGenerator)
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+FN:131,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.StringLiteralExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.StringLiteralExpression::CheckTypes(BaD.TypeChecker)
+DA:132,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+FN:141,System.String BaD.StringLiteralExpression::ToString()
+FNDA:0,System.String BaD.StringLiteralExpression::ToString()
+DA:142,0
+DA:143,0
+DA:144,0
+FN:116,System.Void BaD.StringLiteralExpression::.ctor(System.String,BaD.StreamPosition)
+FNDA:0,System.Void BaD.StringLiteralExpression::.ctor(System.String,BaD.StreamPosition)
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+FN:148,System.Int64 BaD.IntLiteralExpression::get_Value()
+FNDA:0,System.Int64 BaD.IntLiteralExpression::get_Value()
+DA:149,0
+FN:156,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.IntLiteralExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.IntLiteralExpression::GenerateCode(BaD.IGenerator)
+DA:157,0
+DA:158,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:162,0
+DA:163,0
+FN:165,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.IntLiteralExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.IntLiteralExpression::CheckTypes(BaD.TypeChecker)
+DA:166,0
+DA:168,0
+DA:169,0
+DA:170,0
+DA:171,0
+DA:172,0
+FN:174,System.String BaD.IntLiteralExpression::ToString()
+FNDA:0,System.String BaD.IntLiteralExpression::ToString()
+DA:175,0
+DA:176,0
+DA:177,0
+FN:150,System.Void BaD.IntLiteralExpression::.ctor(System.Int64,BaD.StreamPosition)
+FNDA:0,System.Void BaD.IntLiteralExpression::.ctor(System.Int64,BaD.StreamPosition)
+DA:151,0
+DA:152,0
+DA:153,0
+DA:154,0
+FN:181,System.Char BaD.CharLiteralExpression::get_Value()
+FNDA:0,System.Char BaD.CharLiteralExpression::get_Value()
+DA:182,0
+FN:190,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.CharLiteralExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.CharLiteralExpression::GenerateCode(BaD.IGenerator)
+DA:191,0
+DA:192,0
+DA:193,0
+DA:194,0
+DA:195,0
+DA:196,0
+DA:197,0
+FN:199,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.CharLiteralExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.CharLiteralExpression::CheckTypes(BaD.TypeChecker)
+DA:200,0
+DA:202,0
+DA:203,0
+DA:204,0
+DA:205,0
+DA:206,0
+FN:208,System.String BaD.CharLiteralExpression::ToString()
+FNDA:0,System.String BaD.CharLiteralExpression::ToString()
+DA:209,0
+DA:210,0
+DA:211,0
+FN:183,System.Void BaD.CharLiteralExpression::.ctor(System.Char,BaD.StreamPosition)
+FNDA:0,System.Void BaD.CharLiteralExpression::.ctor(System.Char,BaD.StreamPosition)
+DA:184,0
+DA:185,0
+DA:186,0
+DA:187,0
+FN:215,System.Boolean BaD.BoolLiteralExpression::get_Value()
+FNDA:0,System.Boolean BaD.BoolLiteralExpression::get_Value()
+DA:216,0
+FN:223,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.BoolLiteralExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.BoolLiteralExpression::GenerateCode(BaD.IGenerator)
+DA:224,0
+DA:225,0
+DA:226,0
+DA:227,0
+DA:228,0
+DA:229,0
+DA:230,0
+FN:232,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.BoolLiteralExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.BoolLiteralExpression::CheckTypes(BaD.TypeChecker)
+DA:233,0
+DA:235,0
+DA:236,0
+DA:237,0
+DA:238,0
+DA:239,0
+FN:241,System.String BaD.BoolLiteralExpression::ToString()
+FNDA:0,System.String BaD.BoolLiteralExpression::ToString()
+DA:242,0
+DA:243,0
+DA:244,0
+FN:217,System.Void BaD.BoolLiteralExpression::.ctor(System.Boolean,BaD.StreamPosition)
+FNDA:0,System.Void BaD.BoolLiteralExpression::.ctor(System.Boolean,BaD.StreamPosition)
+DA:218,0
+DA:219,0
+DA:220,0
+DA:221,0
+FN:253,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.NullLiteralExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.NullLiteralExpression::GenerateCode(BaD.IGenerator)
+DA:254,0
+DA:255,0
+DA:256,0
+DA:257,0
+DA:258,0
+DA:259,0
+DA:260,0
+FN:262,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.NullLiteralExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.NullLiteralExpression::CheckTypes(BaD.TypeChecker)
+DA:263,0
+DA:265,0
+DA:266,0
+DA:267,0
+DA:268,0
+DA:269,0
+FN:271,System.String BaD.NullLiteralExpression::ToString()
+FNDA:0,System.String BaD.NullLiteralExpression::ToString()
+DA:272,0
+DA:273,0
+DA:274,0
+FN:248,System.Void BaD.NullLiteralExpression::.ctor(BaD.StreamPosition)
+FNDA:0,System.Void BaD.NullLiteralExpression::.ctor(BaD.StreamPosition)
+DA:249,0
+DA:250,0
+DA:251,0
+FN:278,System.String BaD.IdentifierExpression::get_Name()
+FNDA:0,System.String BaD.IdentifierExpression::get_Name()
+DA:279,0
+FN:287,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.IdentifierExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.IdentifierExpression::GenerateCode(BaD.IGenerator)
+DA:288,0
+DA:289,0
+DA:290,0
+DA:291,0
+DA:292,0
+DA:293,0
+DA:294,0
+FN:296,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.IdentifierExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.IdentifierExpression::CheckTypes(BaD.TypeChecker)
+DA:297,0
+DA:299,0
+DA:300,0
+DA:301,0
+DA:302,0
+DA:303,0
+FN:305,System.String BaD.IdentifierExpression::ToString()
+FNDA:0,System.String BaD.IdentifierExpression::ToString()
+DA:306,0
+DA:307,0
+DA:308,0
+FN:280,System.Void BaD.IdentifierExpression::.ctor(System.String,BaD.StreamPosition)
+FNDA:0,System.Void BaD.IdentifierExpression::.ctor(System.String,BaD.StreamPosition)
+DA:281,0
+DA:282,0
+DA:283,0
+DA:284,0
+FN:312,System.String BaD.AddressOfExpression::get_Name()
+FNDA:0,System.String BaD.AddressOfExpression::get_Name()
+DA:313,0
+FN:320,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.AddressOfExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.AddressOfExpression::GenerateCode(BaD.IGenerator)
+DA:321,0
+DA:322,0
+DA:326,0
+DA:327,0
+DA:329,0
+DA:330,0
+DA:331,0
+BRDA:326,21,0,0
+BRDA:326,21,1,0
+FN:333,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.AddressOfExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.AddressOfExpression::CheckTypes(BaD.TypeChecker)
+DA:334,0
+DA:336,0
+DA:337,0
+DA:338,0
+DA:339,0
+DA:340,0
+DA:341,0
+DA:342,0
+DA:343,0
+DA:344,0
+DA:345,0
+DA:346,0
+DA:347,0
+FN:349,System.String BaD.AddressOfExpression::ToString()
+FNDA:0,System.String BaD.AddressOfExpression::ToString()
+DA:350,0
+DA:351,0
+DA:352,0
+FN:314,System.Void BaD.AddressOfExpression::.ctor(System.String,BaD.StreamPosition)
+FNDA:0,System.Void BaD.AddressOfExpression::.ctor(System.String,BaD.StreamPosition)
+DA:315,0
+DA:316,0
+DA:317,0
+DA:318,0
+FN:356,BaD.SExpression BaD.AssignPtrExpression::get_Ptr()
+FNDA:0,BaD.SExpression BaD.AssignPtrExpression::get_Ptr()
+DA:357,0
+FN:357,BaD.SExpression BaD.AssignPtrExpression::get_Value()
+FNDA:0,BaD.SExpression BaD.AssignPtrExpression::get_Value()
+DA:358,0
+FN:366,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.AssignPtrExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.AssignPtrExpression::GenerateCode(BaD.IGenerator)
+DA:367,0
+DA:368,0
+DA:370,0
+DA:371,0
+DA:372,0
+DA:373,0
+DA:374,0
+DA:375,0
+FN:377,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.AssignPtrExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.AssignPtrExpression::CheckTypes(BaD.TypeChecker)
+DA:378,0
+DA:380,0
+DA:381,0
+DA:382,0
+DA:383,0
+DA:384,0
+DA:385,0
+DA:386,0
+DA:387,0
+DA:388,0
+DA:389,0
+DA:390,0
+DA:391,0
+DA:392,0
+DA:393,0
+FN:395,System.String BaD.AssignPtrExpression::ToString()
+FNDA:0,System.String BaD.AssignPtrExpression::ToString()
+DA:396,0
+DA:397,0
+DA:398,0
+BRDA:397,24,0,0
+BRDA:397,24,1,0
+BRDA:397,53,0,0
+BRDA:397,53,1,0
+FN:400,System.Int32 BaD.AssignPtrExpression::GetTempVarSize()
+FNDA:0,System.Int32 BaD.AssignPtrExpression::GetTempVarSize()
+DA:401,0
+DA:402,0
+DA:403,0
+FN:359,System.Void BaD.AssignPtrExpression::.ctor(BaD.SExpression,BaD.SExpression,BaD.StreamPosition)
+FNDA:0,System.Void BaD.AssignPtrExpression::.ctor(BaD.SExpression,BaD.SExpression,BaD.StreamPosition)
+DA:360,0
+DA:361,0
+DA:362,0
+DA:363,0
+DA:364,0
+FN:407,BaD.SExpression BaD.DereferenceExpression::get_Expr()
+FNDA:0,BaD.SExpression BaD.DereferenceExpression::get_Expr()
+DA:408,0
+FN:415,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.DereferenceExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.DereferenceExpression::GenerateCode(BaD.IGenerator)
+DA:416,0
+DA:417,0
+DA:418,0
+DA:419,0
+DA:420,0
+DA:421,0
+DA:422,0
+DA:423,0
+DA:424,0
+DA:425,0
+DA:426,0
+BRDA:418,40,0,0
+BRDA:418,40,1,0
+FN:428,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.DereferenceExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.DereferenceExpression::CheckTypes(BaD.TypeChecker)
+DA:429,0
+DA:431,0
+DA:432,0
+DA:433,0
+DA:434,0
+DA:435,0
+DA:436,0
+DA:437,0
+DA:438,0
+DA:439,0
+DA:440,0
+FN:442,System.String BaD.DereferenceExpression::ToString()
+FNDA:0,System.String BaD.DereferenceExpression::ToString()
+DA:443,0
+DA:444,0
+DA:445,0
+BRDA:444,13,0,0
+BRDA:444,13,1,0
+FN:409,System.Void BaD.DereferenceExpression::.ctor(BaD.SExpression,BaD.StreamPosition)
+FNDA:0,System.Void BaD.DereferenceExpression::.ctor(BaD.SExpression,BaD.StreamPosition)
+DA:410,0
+DA:411,0
+DA:412,0
+DA:413,0
+FN:449,System.String BaD.VardecExpression::get_Name()
+FNDA:0,System.String BaD.VardecExpression::get_Name()
+DA:450,0
+FN:450,BaD.Type BaD.VardecExpression::get_Type()
+FNDA:0,BaD.Type BaD.VardecExpression::get_Type()
+DA:451,0
+FN:459,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.VardecExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.VardecExpression::GenerateCode(BaD.IGenerator)
+DA:460,0
+DA:461,0
+DA:462,0
+DA:463,0
+DA:464,0
+DA:465,0
+DA:466,0
+FN:468,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.VardecExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.VardecExpression::CheckTypes(BaD.TypeChecker)
+DA:469,0
+DA:471,0
+DA:472,0
+DA:473,0
+DA:474,0
+DA:475,0
+DA:476,0
+DA:477,0
+DA:478,0
+FN:480,System.Int32 BaD.VardecExpression::GetLocalSize()
+FNDA:0,System.Int32 BaD.VardecExpression::GetLocalSize()
+DA:481,0
+DA:482,0
+DA:483,0
+FN:485,System.String BaD.VardecExpression::ToString()
+FNDA:0,System.String BaD.VardecExpression::ToString()
+DA:486,0
+DA:487,0
+DA:488,0
+BRDA:487,24,0,0
+BRDA:487,24,1,0
+FN:452,System.Void BaD.VardecExpression::.ctor(System.String,BaD.Type,BaD.StreamPosition)
+FNDA:0,System.Void BaD.VardecExpression::.ctor(System.String,BaD.Type,BaD.StreamPosition)
+DA:453,0
+DA:454,0
+DA:455,0
+DA:456,0
+DA:457,0
+FN:492,System.String BaD.AssignExpression::get_Name()
+FNDA:0,System.String BaD.AssignExpression::get_Name()
+DA:493,0
+FN:493,BaD.SExpression BaD.AssignExpression::get_Expr()
+FNDA:0,BaD.SExpression BaD.AssignExpression::get_Expr()
+DA:494,0
+FN:502,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.AssignExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.AssignExpression::GenerateCode(BaD.IGenerator)
+DA:503,0
+DA:504,0
+DA:505,0
+DA:506,0
+DA:507,0
+FN:509,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.AssignExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.AssignExpression::CheckTypes(BaD.TypeChecker)
+DA:510,0
+DA:512,0
+DA:513,0
+DA:514,0
+DA:515,0
+DA:516,0
+DA:517,0
+DA:518,0
+DA:519,0
+DA:520,0
+DA:521,0
+DA:522,0
+FN:524,System.String BaD.AssignExpression::ToString()
+FNDA:0,System.String BaD.AssignExpression::ToString()
+DA:525,0
+DA:526,0
+DA:527,0
+BRDA:526,41,0,0
+BRDA:526,41,1,0
+FN:495,System.Void BaD.AssignExpression::.ctor(System.String,BaD.SExpression,BaD.StreamPosition)
+FNDA:0,System.Void BaD.AssignExpression::.ctor(System.String,BaD.SExpression,BaD.StreamPosition)
+DA:496,0
+DA:497,0
+DA:498,0
+DA:499,0
+DA:500,0
+FN:531,BaD.SExpression BaD.WhileExpression::get_Expr()
+FNDA:0,BaD.SExpression BaD.WhileExpression::get_Expr()
+DA:532,0
+FN:532,BaD.SExpression BaD.WhileExpression::get_Stmt()
+FNDA:0,BaD.SExpression BaD.WhileExpression::get_Stmt()
+DA:533,0
+FN:541,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.WhileExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.WhileExpression::GenerateCode(BaD.IGenerator)
+DA:542,0
+DA:543,0
+DA:544,0
+DA:547,0
+DA:548,0
+DA:549,0
+DA:550,0
+DA:553,0
+DA:555,0
+DA:558,0
+DA:559,0
+DA:560,0
+DA:561,0
+DA:562,0
+FN:564,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.WhileExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.WhileExpression::CheckTypes(BaD.TypeChecker)
+DA:565,0
+DA:566,0
+DA:567,0
+DA:568,0
+DA:569,0
+DA:570,0
+DA:571,0
+DA:572,0
+DA:573,0
+DA:574,0
+DA:575,0
+FN:577,System.String BaD.WhileExpression::ToString()
+FNDA:0,System.String BaD.WhileExpression::ToString()
+DA:578,0
+DA:579,0
+DA:580,0
+BRDA:579,24,0,0
+BRDA:579,24,1,0
+BRDA:579,53,0,0
+BRDA:579,53,1,0
+FN:534,System.Void BaD.WhileExpression::.ctor(BaD.SExpression,BaD.SExpression,BaD.StreamPosition)
+FNDA:0,System.Void BaD.WhileExpression::.ctor(BaD.SExpression,BaD.SExpression,BaD.StreamPosition)
+DA:535,0
+DA:536,0
+DA:537,0
+DA:538,0
+DA:539,0
+FN:584,BaD.SExpression BaD.IfExpression::get_Expr()
+FNDA:0,BaD.SExpression BaD.IfExpression::get_Expr()
+DA:585,0
+FN:585,BaD.SExpression BaD.IfExpression::get_ThenStmt()
+FNDA:0,BaD.SExpression BaD.IfExpression::get_ThenStmt()
+DA:586,0
+FN:586,BaD.SExpression BaD.IfExpression::get_ElseStmt()
+FNDA:0,BaD.SExpression BaD.IfExpression::get_ElseStmt()
+DA:587,0
+FN:596,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.IfExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.IfExpression::GenerateCode(BaD.IGenerator)
+DA:597,0
+DA:598,0
+DA:599,0
+DA:600,0
+DA:601,0
+DA:603,0
+DA:606,0
+DA:607,0
+DA:608,0
+DA:609,0
+DA:611,0
+DA:612,0
+DA:613,0
+DA:614,0
+DA:615,0
+DA:616,0
+DA:617,0
+DA:618,0
+DA:619,0
+DA:620,0
+DA:621,0
+BRDA:600,37,0,0
+BRDA:600,37,1,0
+BRDA:606,71,0,0
+BRDA:606,71,1,0
+BRDA:606,87,0,0
+BRDA:606,87,1,0
+BRDA:614,191,0,0
+BRDA:614,191,1,0
+BRDA:614,209,0,0
+BRDA:614,209,1,0
+FN:623,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.IfExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.IfExpression::CheckTypes(BaD.TypeChecker)
+DA:624,0
+DA:625,0
+DA:626,0
+DA:627,0
+DA:628,0
+DA:629,0
+DA:630,0
+DA:631,0
+DA:632,0
+DA:633,0
+DA:634,0
+DA:635,0
+DA:636,0
+DA:638,0
+DA:639,0
+DA:641,0
+DA:642,0
+DA:643,0
+DA:644,0
+DA:645,0
+DA:646,0
+DA:647,0
+DA:649,0
+DA:650,0
+DA:651,0
+DA:652,0
+DA:653,0
+DA:655,0
+DA:656,0
+BRDA:638,78,0,0
+BRDA:638,78,1,0
+BRDA:641,109,0,0
+BRDA:641,109,1,0
+FN:658,System.String BaD.IfExpression::ToString()
+FNDA:0,System.String BaD.IfExpression::ToString()
+DA:659,0
+DA:660,0
+DA:661,0
+BRDA:660,24,0,0
+BRDA:660,24,1,0
+BRDA:660,53,0,0
+BRDA:660,53,1,0
+BRDA:660,82,0,0
+BRDA:660,82,1,0
+FN:588,System.Void BaD.IfExpression::.ctor(BaD.SExpression,BaD.SExpression,BaD.SExpression,BaD.StreamPosition)
+FNDA:0,System.Void BaD.IfExpression::.ctor(BaD.SExpression,BaD.SExpression,BaD.SExpression,BaD.StreamPosition)
+DA:589,0
+DA:590,0
+DA:591,0
+DA:592,0
+DA:593,0
+DA:594,0
+FN:665,BaD.SExpression BaD.ReturnExpression::get_Expr()
+FNDA:0,BaD.SExpression BaD.ReturnExpression::get_Expr()
+DA:666,0
+FN:673,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.ReturnExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.ReturnExpression::GenerateCode(BaD.IGenerator)
+DA:674,0
+DA:675,0
+DA:676,0
+DA:677,0
+DA:678,0
+DA:679,0
+DA:680,0
+BRDA:675,12,0,0
+BRDA:675,12,1,0
+FN:682,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.ReturnExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.ReturnExpression::CheckTypes(BaD.TypeChecker)
+DA:683,0
+DA:684,0
+DA:685,0
+DA:686,0
+DA:687,0
+DA:688,0
+DA:689,0
+DA:690,0
+DA:691,0
+DA:692,0
+DA:693,0
+DA:694,0
+DA:695,0
+DA:696,0
+DA:697,0
+DA:698,0
+DA:699,0
+BRDA:685,18,0,0
+BRDA:685,18,1,0
+FN:701,System.String BaD.ReturnExpression::ToString()
+FNDA:0,System.String BaD.ReturnExpression::ToString()
+DA:702,0
+DA:703,0
+DA:704,0
+BRDA:703,13,0,0
+BRDA:703,13,1,0
+BRDA:703,29,0,0
+BRDA:703,29,1,0
+FN:667,System.Void BaD.ReturnExpression::.ctor(BaD.SExpression,BaD.StreamPosition)
+FNDA:0,System.Void BaD.ReturnExpression::.ctor(BaD.SExpression,BaD.StreamPosition)
+DA:668,0
+DA:669,0
+DA:670,0
+DA:671,0
+FN:708,BaD.SExpression[] BaD.BlockExpression::get_Stmts()
+FNDA:0,BaD.SExpression[] BaD.BlockExpression::get_Stmts()
+DA:709,0
+FN:716,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.BlockExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.BlockExpression::GenerateCode(BaD.IGenerator)
+DA:717,0
+DA:718,0
+DA:719,0
+FN:721,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.BlockExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.BlockExpression::CheckTypes(BaD.TypeChecker)
+DA:722,0
+DA:723,0
+DA:724,0
+DA:725,0
+DA:726,0
+DA:727,0
+DA:729,0
+DA:730,0
+DA:731,0
+DA:732,0
+DA:733,0
+DA:734,0
+DA:735,0
+DA:736,0
+BRDA:724,46,1,0
+BRDA:724,46,0,0
+FN:738,System.String BaD.BlockExpression::ToString()
+FNDA:0,System.String BaD.BlockExpression::ToString()
+DA:739,0
+DA:740,0
+DA:741,0
+DA:742,0
+DA:743,0
+DA:744,0
+DA:745,0
+DA:747,0
+DA:748,0
+DA:749,0
+BRDA:742,68,1,0
+BRDA:742,68,0,0
+FN:710,System.Void BaD.BlockExpression::.ctor(BaD.SExpression[],BaD.StreamPosition)
+FNDA:0,System.Void BaD.BlockExpression::.ctor(BaD.SExpression[],BaD.StreamPosition)
+DA:711,0
+DA:712,0
+DA:713,0
+DA:714,0
+FN:753,System.String BaD.FuncExpression::get_Name()
+FNDA:0,System.String BaD.FuncExpression::get_Name()
+DA:754,0
+FN:754,BaD.TypedIdentifier[] BaD.FuncExpression::get_Params()
+FNDA:0,BaD.TypedIdentifier[] BaD.FuncExpression::get_Params()
+DA:755,0
+FN:755,BaD.Type BaD.FuncExpression::get_ReturnType()
+FNDA:0,BaD.Type BaD.FuncExpression::get_ReturnType()
+DA:756,0
+FN:756,System.Collections.Generic.List`1<BaD.SExpression> BaD.FuncExpression::get_Body()
+FNDA:0,System.Collections.Generic.List`1<BaD.SExpression> BaD.FuncExpression::get_Body()
+DA:757,0
+FN:757,System.Int32 BaD.FuncExpression::get_LocalVarCount()
+FNDA:0,System.Int32 BaD.FuncExpression::get_LocalVarCount()
+DA:758,0
+FN:768,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.FuncExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.FuncExpression::GenerateCode(BaD.IGenerator)
+DA:769,0
+DA:770,0
+DA:771,0
+FN:773,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.FuncExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.FuncExpression::CheckTypes(BaD.TypeChecker)
+DA:774,0
+DA:776,0
+DA:778,0
+DA:779,0
+DA:780,0
+DA:781,0
+DA:782,0
+DA:783,0
+DA:784,0
+DA:785,0
+DA:786,0
+DA:787,0
+DA:788,0
+DA:789,0
+DA:790,0
+DA:791,0
+DA:792,0
+DA:793,0
+DA:794,0
+DA:795,0
+DA:796,0
+DA:797,0
+DA:798,0
+DA:800,0
+DA:801,0
+DA:803,0
+DA:804,0
+DA:805,0
+DA:806,0
+DA:808,0
+DA:809,0
+BRDA:800,74,1,0
+BRDA:800,74,0,0
+FN:811,System.String BaD.FuncExpression::ToString()
+FNDA:0,System.String BaD.FuncExpression::ToString()
+DA:812,0
+DA:813,0
+DA:814,0
+DA:815,0
+DA:816,0
+DA:817,0
+DA:818,0
+DA:820,0
+DA:821,0
+DA:822,0
+DA:823,0
+DA:824,0
+DA:826,0
+DA:827,0
+DA:828,0
+BRDA:815,91,1,0
+BRDA:817,55,0,0
+BRDA:817,55,1,0
+BRDA:815,91,0,0
+BRDA:820,106,0,0
+BRDA:820,106,1,0
+BRDA:821,198,1,0
+BRDA:823,163,0,0
+BRDA:823,163,1,0
+BRDA:821,198,0,0
+FN:759,System.Void BaD.FuncExpression::.ctor(System.String,BaD.TypedIdentifier[],BaD.Type,System.Collections.Generic.List`1<BaD.SExpression>,BaD.StreamPosition)
+FNDA:0,System.Void BaD.FuncExpression::.ctor(System.String,BaD.TypedIdentifier[],BaD.Type,System.Collections.Generic.List`1<BaD.SExpression>,BaD.StreamPosition)
+DA:760,0
+DA:761,0
+DA:762,0
+DA:763,0
+DA:764,0
+DA:765,0
+DA:766,0
+FN:832,BaD.SExpression BaD.FunctionCallExpression::get_Func()
+FNDA:0,BaD.SExpression BaD.FunctionCallExpression::get_Func()
+DA:833,0
+FN:833,BaD.SExpression[] BaD.FunctionCallExpression::get_Args()
+FNDA:0,BaD.SExpression[] BaD.FunctionCallExpression::get_Args()
+DA:834,0
+FN:842,System.Boolean BaD.FunctionCallExpression::HasSubCall(BaD.SExpression)
+FNDA:0,System.Boolean BaD.FunctionCallExpression::HasSubCall(BaD.SExpression)
+DA:843,0
+DA:844,0
+DA:845,0
+DA:846,0
+DA:847,0
+DA:848,0
+DA:849,0
+DA:850,0
+DA:851,0
+DA:852,0
+DA:853,0
+DA:854,0
+DA:855,0
+DA:857,0
+DA:858,0
+BRDA:852,72,1,0
+BRDA:852,72,0,0
+BRDA:846,9,0,0
+BRDA:846,9,1,0
+BRDA:848,30,0,0
+BRDA:848,30,1,0
+FN:860,System.Int32 BaD.FunctionCallExpression::GetTempVarSize()
+FNDA:0,System.Int32 BaD.FunctionCallExpression::GetTempVarSize()
+DA:861,0
+DA:863,0
+DA:864,0
+BRDA:863,7,0,0
+BRDA:863,7,1,0
+FN:866,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.FunctionCallExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.FunctionCallExpression::GenerateCode(BaD.IGenerator)
+DA:867,0
+DA:868,0
+DA:869,0
+FN:871,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.FunctionCallExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.FunctionCallExpression::CheckTypes(BaD.TypeChecker)
+DA:872,0
+DA:873,0
+DA:875,0
+DA:877,0
+DA:878,0
+DA:879,0
+DA:880,0
+DA:881,0
+DA:882,0
+DA:883,0
+DA:884,0
+DA:885,0
+DA:886,0
+DA:887,0
+DA:888,0
+DA:889,0
+DA:890,0
+DA:891,0
+DA:892,0
+DA:893,0
+DA:895,0
+DA:896,0
+DA:897,0
+DA:898,0
+DA:899,0
+DA:900,0
+BRDA:883,193,1,0
+BRDA:883,193,0,0
+BRDA:888,28,0,0
+BRDA:888,28,1,0
+BRDA:890,70,0,0
+BRDA:890,122,0,0
+BRDA:890,70,1,0
+BRDA:890,122,1,0
+BRDA:890,182,0,0
+BRDA:891,247,0,0
+BRDA:891,247,1,0
+BRDA:891,298,0,0
+BRDA:891,298,1,0
+BRDA:891,338,0,0
+BRDA:891,338,1,0
+BRDA:890,182,1,0
+FN:902,System.String BaD.FunctionCallExpression::ToString()
+FNDA:0,System.String BaD.FunctionCallExpression::ToString()
+DA:903,0
+DA:904,0
+DA:905,0
+DA:906,0
+DA:907,0
+DA:908,0
+DA:909,0
+DA:911,0
+DA:912,0
+DA:913,0
+BRDA:905,20,0,0
+BRDA:905,20,1,0
+BRDA:906,103,1,0
+BRDA:908,67,0,0
+BRDA:908,67,1,0
+BRDA:906,103,0,0
+FN:835,System.Void BaD.FunctionCallExpression::.ctor(BaD.SExpression,BaD.SExpression[],BaD.StreamPosition)
+FNDA:0,System.Void BaD.FunctionCallExpression::.ctor(BaD.SExpression,BaD.SExpression[],BaD.StreamPosition)
+DA:836,0
+DA:837,0
+DA:838,0
+DA:839,0
+DA:840,0
+FN:917,BaD.Token BaD.ArithmeticExpression::get_Op()
+FNDA:0,BaD.Token BaD.ArithmeticExpression::get_Op()
+DA:918,0
+FN:918,BaD.SExpression BaD.ArithmeticExpression::get_Left()
+FNDA:0,BaD.SExpression BaD.ArithmeticExpression::get_Left()
+DA:919,0
+FN:919,BaD.SExpression BaD.ArithmeticExpression::get_Right()
+FNDA:0,BaD.SExpression BaD.ArithmeticExpression::get_Right()
+DA:920,0
+FN:931,BaD.SExpression BaD.ArithmeticExpression::SimplifyArithmeticExpression()
+FNDA:0,BaD.SExpression BaD.ArithmeticExpression::SimplifyArithmeticExpression()
+DA:932,0
+DA:934,0
+DA:935,0
+DA:937,0
+DA:938,0
+DA:940,0
+DA:941,0
+DA:943,0
+DA:944,0
+DA:946,0
+DA:947,0
+DA:948,0
+DA:949,0
+DA:950,0
+DA:951,0
+DA:952,0
+DA:953,0
+DA:954,0
+DA:956,0
+DA:957,0
+BRDA:934,17,0,0
+BRDA:934,17,1,0
+BRDA:937,58,0,0
+BRDA:937,58,1,0
+BRDA:940,96,0,0
+BRDA:940,96,1,0
+BRDA:940,121,0,0
+BRDA:946,165,1,0
+BRDA:946,165,2,0
+BRDA:946,165,3,0
+BRDA:946,165,4,0
+BRDA:946,165,0,0
+BRDA:940,121,1,0
+FN:959,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.ArithmeticExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.ArithmeticExpression::CheckTypes(BaD.TypeChecker)
+DA:960,0
+DA:961,0
+DA:963,0
+DA:964,0
+DA:966,0
+DA:967,0
+DA:968,0
+DA:969,0
+DA:970,0
+DA:971,0
+DA:972,0
+DA:973,0
+DA:974,0
+DA:975,0
+DA:976,0
+DA:977,0
+DA:978,0
+DA:979,0
+FN:981,BaD.CodeGenerationExpression BaD.ArithmeticExpression::GetOpExpression(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses)
+FNDA:0,BaD.CodeGenerationExpression BaD.ArithmeticExpression::GetOpExpression(BaD.IGenerator/RegisterUses,BaD.IGenerator/RegisterUses)
+DA:982,0
+DA:983,0
+DA:984,0
+DA:985,0
+DA:986,0
+DA:987,0
+DA:988,0
+DA:989,0
+DA:990,0
+DA:992,0
+BRDA:983,41,1,0
+BRDA:983,41,2,0
+BRDA:983,41,3,0
+BRDA:983,41,4,0
+BRDA:983,41,0,0
+FN:994,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.ArithmeticExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.ArithmeticExpression::GenerateCode(BaD.IGenerator)
+DA:995,0
+DA:996,0
+DA:998,0
+DA:999,0
+DA:1001,0
+DA:1002,0
+DA:1004,0
+DA:1005,0
+DA:1006,0
+DA:1007,0
+DA:1008,0
+DA:1009,0
+DA:1010,0
+DA:1011,0
+DA:1012,0
+DA:1013,0
+DA:1014,0
+DA:1015,0
+DA:1018,0
+DA:1019,0
+DA:1020,0
+DA:1024,0
+DA:1025,0
+DA:1028,0
+DA:1031,0
+DA:1032,0
+DA:1035,0
+DA:1038,0
+DA:1039,0
+DA:1040,0
+DA:1043,0
+DA:1044,0
+DA:1046,0
+DA:1047,0
+DA:1048,0
+DA:1049,0
+DA:1052,0
+DA:1053,0
+DA:1054,0
+DA:1055,0
+DA:1056,0
+DA:1057,0
+BRDA:998,20,0,0
+BRDA:998,20,1,0
+BRDA:998,43,0,0
+BRDA:1004,94,1,0
+BRDA:1004,94,2,0
+BRDA:1004,94,3,0
+BRDA:1004,94,4,0
+BRDA:1004,94,0,0
+BRDA:998,43,1,0
+BRDA:1018,256,0,0
+BRDA:1018,256,1,0
+BRDA:1018,279,0,0
+BRDA:1024,305,0,0
+BRDA:1024,305,1,0
+BRDA:1031,384,0,0
+BRDA:1031,384,1,0
+BRDA:1035,420,0,0
+BRDA:1035,420,1,0
+BRDA:1035,428,0,0
+BRDA:1035,428,1,0
+BRDA:1038,454,0,0
+BRDA:1038,454,1,0
+BRDA:1018,279,1,0
+FN:1060,System.Int32 BaD.ArithmeticExpression::GetTempVarSize()
+FNDA:0,System.Int32 BaD.ArithmeticExpression::GetTempVarSize()
+DA:1061,0
+DA:1062,0
+DA:1063,0
+BRDA:1062,12,0,0
+BRDA:1062,25,0,0
+BRDA:1062,12,1,0
+BRDA:1062,25,1,0
+FN:1065,System.String BaD.ArithmeticExpression::ToString()
+FNDA:0,System.String BaD.ArithmeticExpression::ToString()
+DA:1066,0
+DA:1067,0
+DA:1068,0
+BRDA:1067,46,0,0
+BRDA:1067,46,1,0
+BRDA:1067,75,0,0
+BRDA:1067,75,1,0
+FN:922,System.Void BaD.ArithmeticExpression::.ctor(BaD.Token,BaD.SExpression,BaD.SExpression,BaD.StreamPosition)
+FNDA:0,System.Void BaD.ArithmeticExpression::.ctor(BaD.Token,BaD.SExpression,BaD.SExpression,BaD.StreamPosition)
+DA:923,0
+DA:924,0
+DA:925,0
+DA:926,0
+DA:927,0
+DA:928,0
+FN:1072,BaD.Token BaD.ComparisonExpression::get_Op()
+FNDA:0,BaD.Token BaD.ComparisonExpression::get_Op()
+DA:1073,0
+FN:1073,BaD.SExpression BaD.ComparisonExpression::get_Left()
+FNDA:0,BaD.SExpression BaD.ComparisonExpression::get_Left()
+DA:1074,0
+FN:1074,BaD.SExpression BaD.ComparisonExpression::get_Right()
+FNDA:0,BaD.SExpression BaD.ComparisonExpression::get_Right()
+DA:1075,0
+FN:1085,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.ComparisonExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.ComparisonExpression::GenerateCode(BaD.IGenerator)
+DA:1086,0
+DA:1087,0
+DA:1091,0
+DA:1094,0
+DA:1096,0
+DA:1098,0
+DA:1099,0
+DA:1102,0
+DA:1105,0
+DA:1106,0
+DA:1107,0
+DA:1108,0
+DA:1110,0
+DA:1111,0
+FN:1113,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.ComparisonExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.ComparisonExpression::CheckTypes(BaD.TypeChecker)
+DA:1114,0
+DA:1115,0
+DA:1117,0
+DA:1118,0
+DA:1120,0
+DA:1121,0
+DA:1122,0
+DA:1123,0
+DA:1124,0
+DA:1125,0
+DA:1126,0
+DA:1127,0
+DA:1128,0
+DA:1129,0
+DA:1130,0
+DA:1131,0
+DA:1132,0
+DA:1133,0
+FN:1135,System.String BaD.ComparisonExpression::ToString()
+FNDA:0,System.String BaD.ComparisonExpression::ToString()
+DA:1136,0
+DA:1137,0
+DA:1138,0
+BRDA:1137,46,0,0
+BRDA:1137,46,1,0
+BRDA:1137,75,0,0
+BRDA:1137,75,1,0
+FN:1141,System.Int32 BaD.ComparisonExpression::GetTempVarSize()
+FNDA:0,System.Int32 BaD.ComparisonExpression::GetTempVarSize()
+DA:1142,0
+DA:1143,0
+DA:1144,0
+FN:1077,System.Void BaD.ComparisonExpression::.ctor(BaD.Token,BaD.SExpression,BaD.SExpression,BaD.StreamPosition)
+FNDA:0,System.Void BaD.ComparisonExpression::.ctor(BaD.Token,BaD.SExpression,BaD.SExpression,BaD.StreamPosition)
+DA:1078,0
+DA:1079,0
+DA:1080,0
+DA:1081,0
+DA:1082,0
+DA:1083,0
+FN:1148,BaD.Token BaD.LogicalExpression::get_Op()
+FNDA:0,BaD.Token BaD.LogicalExpression::get_Op()
+DA:1149,0
+FN:1149,BaD.SExpression BaD.LogicalExpression::get_Left()
+FNDA:0,BaD.SExpression BaD.LogicalExpression::get_Left()
+DA:1150,0
+FN:1150,BaD.SExpression BaD.LogicalExpression::get_Right()
+FNDA:0,BaD.SExpression BaD.LogicalExpression::get_Right()
+DA:1151,0
+FN:1161,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.LogicalExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.LogicalExpression::GenerateCode(BaD.IGenerator)
+DA:1162,0
+DA:1163,0
+DA:1166,0
+DA:1169,0
+DA:1170,0
+DA:1172,0
+DA:1173,0
+DA:1176,0
+DA:1179,0
+DA:1182,0
+DA:1183,0
+DA:1185,0
+DA:1186,0
+DA:1188,0
+DA:1191,0
+DA:1192,0
+BRDA:1179,156,0,0
+BRDA:1179,156,1,0
+BRDA:1179,163,1,0
+BRDA:1179,163,0,0
+FN:1194,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.LogicalExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.LogicalExpression::CheckTypes(BaD.TypeChecker)
+DA:1195,0
+DA:1196,0
+DA:1198,0
+DA:1199,0
+DA:1201,0
+DA:1202,0
+DA:1203,0
+DA:1204,0
+DA:1205,0
+DA:1206,0
+DA:1207,0
+DA:1208,0
+DA:1209,0
+DA:1210,0
+DA:1211,0
+DA:1212,0
+DA:1213,0
+FN:1215,System.String BaD.LogicalExpression::ToString()
+FNDA:0,System.String BaD.LogicalExpression::ToString()
+DA:1216,0
+DA:1217,0
+DA:1218,0
+BRDA:1217,46,0,0
+BRDA:1217,46,1,0
+BRDA:1217,75,0,0
+BRDA:1217,75,1,0
+FN:1221,System.Int32 BaD.LogicalExpression::GetTempVarSize()
+FNDA:0,System.Int32 BaD.LogicalExpression::GetTempVarSize()
+DA:1222,0
+DA:1223,0
+DA:1224,0
+FN:1153,System.Void BaD.LogicalExpression::.ctor(BaD.Token,BaD.SExpression,BaD.SExpression,BaD.StreamPosition)
+FNDA:0,System.Void BaD.LogicalExpression::.ctor(BaD.Token,BaD.SExpression,BaD.SExpression,BaD.StreamPosition)
+DA:1154,0
+DA:1155,0
+DA:1156,0
+DA:1157,0
+DA:1158,0
+DA:1159,0
+FN:1228,BaD.SExpression BaD.NotExpression::get_Expr()
+FNDA:0,BaD.SExpression BaD.NotExpression::get_Expr()
+DA:1229,0
+FN:1236,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.NotExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.NotExpression::CheckTypes(BaD.TypeChecker)
+DA:1237,0
+DA:1238,0
+DA:1240,0
+DA:1242,0
+DA:1243,0
+DA:1244,0
+DA:1245,0
+DA:1246,0
+DA:1247,0
+DA:1248,0
+DA:1249,0
+FN:1251,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.NotExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.NotExpression::GenerateCode(BaD.IGenerator)
+DA:1252,0
+DA:1253,0
+DA:1254,0
+DA:1255,0
+DA:1256,0
+DA:1257,0
+FN:1259,System.String BaD.NotExpression::ToString()
+FNDA:0,System.String BaD.NotExpression::ToString()
+DA:1260,0
+DA:1261,0
+DA:1262,0
+BRDA:1261,13,0,0
+BRDA:1261,13,1,0
+FN:1230,System.Void BaD.NotExpression::.ctor(BaD.SExpression,BaD.StreamPosition)
+FNDA:0,System.Void BaD.NotExpression::.ctor(BaD.SExpression,BaD.StreamPosition)
+DA:1231,0
+DA:1232,0
+DA:1233,0
+DA:1234,0
+FN:1266,System.String BaD.ExternExpression::get_Name()
+FNDA:0,System.String BaD.ExternExpression::get_Name()
+DA:1267,0
+FN:1267,System.String BaD.ExternExpression::get_Dll()
+FNDA:0,System.String BaD.ExternExpression::get_Dll()
+DA:1268,0
+FN:1268,BaD.Type[] BaD.ExternExpression::get_Params()
+FNDA:0,BaD.Type[] BaD.ExternExpression::get_Params()
+DA:1269,0
+FN:1269,BaD.Type BaD.ExternExpression::get_ReturnType()
+FNDA:0,BaD.Type BaD.ExternExpression::get_ReturnType()
+DA:1270,0
+FN:1270,System.Boolean BaD.ExternExpression::get_IsVarArgs()
+FNDA:0,System.Boolean BaD.ExternExpression::get_IsVarArgs()
+DA:1271,0
+FN:1282,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.ExternExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.ExternExpression::GenerateCode(BaD.IGenerator)
+DA:1283,0
+DA:1285,0
+DA:1286,0
+DA:1287,0
+DA:1288,0
+DA:1289,0
+DA:1290,0
+FN:1292,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.ExternExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.ExternExpression::CheckTypes(BaD.TypeChecker)
+DA:1293,0
+DA:1295,0
+DA:1296,0
+DA:1297,0
+DA:1298,0
+DA:1299,0
+DA:1300,0
+DA:1301,0
+FN:1303,System.String BaD.ExternExpression::ToString()
+FNDA:0,System.String BaD.ExternExpression::ToString()
+DA:1304,0
+DA:1305,0
+DA:1306,0
+DA:1307,0
+DA:1308,0
+DA:1309,0
+DA:1310,0
+DA:1312,0
+DA:1313,0
+DA:1314,0
+BRDA:1307,91,1,0
+BRDA:1309,55,0,0
+BRDA:1309,55,1,0
+BRDA:1307,91,0,0
+BRDA:1312,117,0,0
+BRDA:1312,117,1,0
+FN:1272,System.Void BaD.ExternExpression::.ctor(System.String,BaD.Type[],BaD.Type,BaD.StreamPosition,System.String,System.Boolean)
+FNDA:0,System.Void BaD.ExternExpression::.ctor(System.String,BaD.Type[],BaD.Type,BaD.StreamPosition,System.String,System.Boolean)
+DA:1273,0
+DA:1274,0
+DA:1275,0
+DA:1276,0
+DA:1277,0
+DA:1278,0
+DA:1279,0
+DA:1280,0
+FN:1320,BaD.SExpression BaD.IndexExpression::get_Array()
+FNDA:0,BaD.SExpression BaD.IndexExpression::get_Array()
+DA:1321,0
+FN:1321,BaD.SExpression BaD.IndexExpression::get_Index()
+FNDA:0,BaD.SExpression BaD.IndexExpression::get_Index()
+DA:1322,0
+FN:1330,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.IndexExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.IndexExpression::GenerateCode(BaD.IGenerator)
+DA:1331,0
+DA:1332,0
+DA:1335,0
+DA:1339,0
+DA:1342,0
+DA:1345,0
+DA:1348,0
+DA:1351,0
+DA:1354,0
+DA:1357,0
+DA:1359,0
+DA:1360,0
+BRDA:1335,38,0,0
+BRDA:1335,38,1,0
+FN:1362,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.IndexExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.IndexExpression::CheckTypes(BaD.TypeChecker)
+DA:1363,0
+DA:1364,0
+DA:1365,0
+DA:1366,0
+DA:1367,0
+DA:1368,0
+DA:1369,0
+DA:1370,0
+DA:1371,0
+DA:1372,0
+DA:1373,0
+DA:1374,0
+DA:1375,0
+DA:1376,0
+FN:1378,System.String BaD.IndexExpression::ToString()
+FNDA:0,System.String BaD.IndexExpression::ToString()
+DA:1379,0
+DA:1380,0
+DA:1381,0
+BRDA:1380,24,0,0
+BRDA:1380,24,1,0
+BRDA:1380,53,0,0
+BRDA:1380,53,1,0
+FN:1383,System.Int32 BaD.IndexExpression::GetTempVarSize()
+FNDA:0,System.Int32 BaD.IndexExpression::GetTempVarSize()
+DA:1384,0
+DA:1386,0
+DA:1387,0
+FN:1323,System.Void BaD.IndexExpression::.ctor(BaD.SExpression,BaD.SExpression,BaD.StreamPosition)
+FNDA:0,System.Void BaD.IndexExpression::.ctor(BaD.SExpression,BaD.SExpression,BaD.StreamPosition)
+DA:1324,0
+DA:1325,0
+DA:1326,0
+DA:1327,0
+DA:1328,0
+FN:1391,BaD.Type BaD.SizeOfExpression::get_Type()
+FNDA:0,BaD.Type BaD.SizeOfExpression::get_Type()
+DA:1392,0
+FN:1399,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.SizeOfExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.SizeOfExpression::GenerateCode(BaD.IGenerator)
+DA:1400,0
+DA:1401,0
+DA:1402,0
+DA:1403,0
+DA:1404,0
+DA:1405,0
+FN:1407,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.SizeOfExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.SizeOfExpression::CheckTypes(BaD.TypeChecker)
+DA:1408,0
+DA:1409,0
+DA:1410,0
+DA:1411,0
+DA:1412,0
+DA:1413,0
+DA:1414,0
+DA:1415,0
+FN:1417,System.String BaD.SizeOfExpression::ToString()
+FNDA:0,System.String BaD.SizeOfExpression::ToString()
+DA:1418,0
+DA:1419,0
+DA:1420,0
+BRDA:1419,13,0,0
+BRDA:1419,13,1,0
+FN:1393,System.Void BaD.SizeOfExpression::.ctor(BaD.Type,BaD.StreamPosition)
+FNDA:0,System.Void BaD.SizeOfExpression::.ctor(BaD.Type,BaD.StreamPosition)
+DA:1394,0
+DA:1395,0
+DA:1396,0
+DA:1397,0
+FN:1424,BaD.SExpression[] BaD.ListExpression::get_Items()
+FNDA:0,BaD.SExpression[] BaD.ListExpression::get_Items()
+DA:1425,0
+FN:1432,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.ListExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.ListExpression::GenerateCode(BaD.IGenerator)
+DA:1433,0
+DA:1434,0
+DA:1436,0
+DA:1438,0
+DA:1440,0
+DA:1441,0
+DA:1442,0
+DA:1443,0
+DA:1444,0
+DA:1445,0
+DA:1446,0
+DA:1447,0
+DA:1448,0
+DA:1449,0
+DA:1450,0
+DA:1453,0
+DA:1454,0
+DA:1455,0
+BRDA:1440,152,1,0
+BRDA:1440,152,0,0
+FN:1457,System.Int32 BaD.ListExpression::GetLocalSize()
+FNDA:0,System.Int32 BaD.ListExpression::GetLocalSize()
+DA:1458,0
+DA:1463,0
+DA:1464,0
+DA:1465,0
+DA:1466,0
+FN:1468,System.String BaD.ListExpression::ToString()
+FNDA:0,System.String BaD.ListExpression::ToString()
+DA:1469,0
+DA:1470,0
+DA:1471,0
+DA:1472,0
+DA:1473,0
+DA:1474,0
+DA:1475,0
+DA:1477,0
+DA:1478,0
+DA:1479,0
+BRDA:1472,75,1,0
+BRDA:1474,44,0,0
+BRDA:1474,44,1,0
+BRDA:1472,75,0,0
+FN:1481,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.ListExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.ListExpression::CheckTypes(BaD.TypeChecker)
+DA:1482,0
+DA:1483,0
+DA:1485,0
+DA:1486,0
+DA:1487,0
+DA:1488,0
+DA:1491,0
+DA:1492,0
+DA:1493,0
+DA:1494,0
+DA:1495,0
+DA:1496,0
+DA:1497,0
+DA:1498,0
+DA:1499,0
+DA:1500,0
+DA:1501,0
+DA:1502,0
+DA:1503,0
+DA:1504,0
+DA:1506,0
+DA:1507,0
+BRDA:1485,46,1,0
+BRDA:1485,46,0,0
+FN:1426,System.Void BaD.ListExpression::.ctor(BaD.SExpression[],BaD.StreamPosition)
+FNDA:0,System.Void BaD.ListExpression::.ctor(BaD.SExpression[],BaD.StreamPosition)
+DA:1427,0
+DA:1428,0
+DA:1429,0
+DA:1430,0
+FN:1511,BaD.Type BaD.CastExpression::get_Type()
+FNDA:0,BaD.Type BaD.CastExpression::get_Type()
+DA:1512,0
+FN:1512,BaD.SExpression BaD.CastExpression::get_Expr()
+FNDA:0,BaD.SExpression BaD.CastExpression::get_Expr()
+DA:1513,0
+FN:1521,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.CastExpression::GenerateCode(BaD.IGenerator)
+FNDA:0,System.Collections.Generic.List`1<BaD.CodeGenerationExpression> BaD.CastExpression::GenerateCode(BaD.IGenerator)
+DA:1522,0
+DA:1523,0
+DA:1524,0
+DA:1527,0
+DA:1529,0
+DA:1530,0
+FN:1532,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.CastExpression::CheckTypes(BaD.TypeChecker)
+FNDA:0,System.Collections.Generic.List`1<BaD.TypeCheckerExpression> BaD.CastExpression::CheckTypes(BaD.TypeChecker)
+DA:1533,0
+DA:1534,0
+DA:1535,0
+DA:1536,0
+DA:1537,0
+DA:1538,0
+DA:1539,0
+DA:1540,0
+DA:1541,0
+DA:1542,0
+DA:1543,0
+DA:1544,0
+DA:1545,0
+DA:1546,0
+FN:1548,System.String BaD.CastExpression::ToString()
+FNDA:0,System.String BaD.CastExpression::ToString()
+DA:1549,0
+DA:1550,0
+DA:1551,0
+BRDA:1550,24,0,0
+BRDA:1550,24,1,0
+BRDA:1550,53,0,0
+BRDA:1550,53,1,0
+FN:1514,System.Void BaD.CastExpression::.ctor(BaD.Type,BaD.SExpression,BaD.StreamPosition)
+FNDA:0,System.Void BaD.CastExpression::.ctor(BaD.Type,BaD.SExpression,BaD.StreamPosition)
+DA:1515,0
+DA:1516,0
+DA:1517,0
+DA:1518,0
+DA:1519,0
+LF:1021
+LH:0
+BRF:347
+BRH:0
+FNF:172
+FNH:0
+end_of_record
+SF:C:\Users\lords\Documents\Github\BaD\Parser\Type.cs
+FN:28,System.Boolean BaD.Type::IsSigned()
+FNDA:0,System.Boolean BaD.Type::IsSigned()
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:34,0
+DA:35,0
+BRDA:30,14,0,0
+BRDA:32,23,0,0
+BRDA:32,32,0,0
+BRDA:32,41,0,0
+BRDA:32,50,0,0
+BRDA:32,23,1,0
+BRDA:32,32,1,0
+BRDA:32,41,1,0
+BRDA:32,50,1,0
+BRDA:30,14,1,0
+FN:48,System.String BaD.PrimitiveType::ToString()
+FNDA:0,System.String BaD.PrimitiveType::ToString()
+DA:49,0
+DA:50,0
+DA:51,0
+FN:53,System.Boolean BaD.PrimitiveType::Equals(System.Object)
+FNDA:0,System.Boolean BaD.PrimitiveType::Equals(System.Object)
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:59,0
+DA:60,0
+BRDA:55,14,0,0
+BRDA:55,14,1,0
+FN:62,System.Int32 BaD.PrimitiveType::GetHashCode()
+FNDA:0,System.Int32 BaD.PrimitiveType::GetHashCode()
+DA:63,0
+DA:64,0
+DA:65,0
+FN:69,System.Boolean BaD.PrimitiveType::CanCastTo(BaD.Type)
+FNDA:0,System.Boolean BaD.PrimitiveType::CanCastTo(BaD.Type)
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:77,0
+DA:81,0
+DA:82,0
+BRDA:71,14,0,0
+BRDA:73,28,0,0
+BRDA:73,28,1,0
+BRDA:71,14,1,0
+FN:84,System.Boolean BaD.PrimitiveType::IsIntType()
+FNDA:0,System.Boolean BaD.PrimitiveType::IsIntType()
+DA:85,0
+DA:86,0
+DA:87,0
+BRDA:86,7,0,0
+BRDA:86,16,0,0
+BRDA:86,25,0,0
+BRDA:86,7,1,0
+BRDA:86,16,1,0
+BRDA:86,25,1,0
+FN:89,System.Int32 BaD.PrimitiveType::SizeOf()
+FNDA:0,System.Int32 BaD.PrimitiveType::SizeOf()
+DA:90,0
+DA:91,0
+DA:95,0
+DA:98,0
+DA:101,0
+DA:104,0
+DA:106,0
+DA:108,0
+DA:112,0
+DA:114,0
+DA:116,0
+BRDA:91,11,1,0
+BRDA:91,11,4,0
+BRDA:91,11,2,0
+BRDA:91,11,5,0
+BRDA:91,11,3,0
+BRDA:91,11,6,0
+BRDA:91,11,8,0
+BRDA:91,11,9,0
+BRDA:91,11,10,0
+BRDA:91,11,11,0
+BRDA:91,11,7,0
+BRDA:91,11,0,0
+FN:118,System.Int32 BaD.PrimitiveType::LocalSize()
+FNDA:0,System.Int32 BaD.PrimitiveType::LocalSize()
+DA:119,0
+DA:121,0
+DA:122,0
+FN:42,System.Void BaD.PrimitiveType::.ctor(BaD.PrimitiveTypes)
+FNDA:0,System.Void BaD.PrimitiveType::.ctor(BaD.PrimitiveTypes)
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+FN:126,BaD.Type BaD.PointerType::get_Type()
+FNDA:0,BaD.Type BaD.PointerType::get_Type()
+DA:127,0
+FN:134,System.String BaD.PointerType::ToString()
+FNDA:0,System.String BaD.PointerType::ToString()
+DA:135,0
+DA:136,0
+DA:137,0
+BRDA:136,13,0,0
+BRDA:136,13,1,0
+FN:139,System.Boolean BaD.PointerType::Equals(System.Object)
+FNDA:0,System.Boolean BaD.PointerType::Equals(System.Object)
+DA:140,0
+DA:141,0
+DA:142,0
+DA:143,0
+DA:145,0
+DA:146,0
+BRDA:141,14,0,0
+BRDA:141,14,1,0
+FN:148,System.Boolean BaD.PointerType::CanCastTo(BaD.Type)
+FNDA:0,System.Boolean BaD.PointerType::CanCastTo(BaD.Type)
+DA:149,0
+DA:150,0
+DA:151,0
+DA:153,0
+DA:154,0
+DA:155,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:164,0
+DA:166,0
+DA:167,0
+BRDA:150,14,0,0
+BRDA:153,30,0,0
+BRDA:153,30,1,0
+BRDA:153,49,0,0
+BRDA:153,49,1,0
+BRDA:159,70,0,0
+BRDA:159,70,1,0
+BRDA:159,89,0,0
+BRDA:159,89,1,0
+BRDA:150,14,1,0
+FN:169,System.Int32 BaD.PointerType::GetHashCode()
+FNDA:0,System.Int32 BaD.PointerType::GetHashCode()
+DA:170,0
+DA:171,0
+DA:172,0
+FN:174,System.Int32 BaD.PointerType::SizeOf()
+FNDA:0,System.Int32 BaD.PointerType::SizeOf()
+DA:175,0
+DA:176,0
+DA:177,0
+FN:179,System.Int32 BaD.PointerType::LocalSize()
+FNDA:0,System.Int32 BaD.PointerType::LocalSize()
+DA:180,0
+DA:181,0
+DA:182,0
+FN:128,System.Void BaD.PointerType::.ctor(BaD.Type)
+FNDA:0,System.Void BaD.PointerType::.ctor(BaD.Type)
+DA:129,0
+DA:130,0
+DA:131,0
+DA:132,0
+FN:190,System.Boolean BaD.FunctionType::get_IsVarArgs()
+FNDA:0,System.Boolean BaD.FunctionType::get_IsVarArgs()
+DA:191,0
+FN:200,System.String BaD.FunctionType::ToString()
+FNDA:0,System.String BaD.FunctionType::ToString()
+DA:201,0
+DA:202,0
+DA:203,0
+DA:204,0
+DA:205,0
+DA:206,0
+DA:207,0
+DA:209,0
+DA:210,0
+DA:211,0
+DA:212,0
+DA:213,0
+DA:214,0
+DA:215,0
+BRDA:204,27,0,0
+BRDA:204,27,1,0
+BRDA:209,107,1,0
+BRDA:211,72,0,0
+BRDA:211,72,1,0
+BRDA:209,107,0,0
+BRDA:213,139,0,0
+BRDA:213,139,1,0
+FN:217,System.Boolean BaD.FunctionType::Equals(System.Object)
+FNDA:0,System.Boolean BaD.FunctionType::Equals(System.Object)
+DA:218,0
+DA:219,0
+DA:220,0
+DA:221,0
+DA:222,0
+DA:223,0
+DA:224,0
+DA:225,0
+DA:226,0
+DA:227,0
+DA:229,0
+DA:230,0
+DA:232,0
+DA:233,0
+DA:234,0
+BRDA:219,14,0,0
+BRDA:221,37,0,0
+BRDA:221,37,1,0
+BRDA:221,68,0,0
+BRDA:223,143,1,0
+BRDA:225,112,0,0
+BRDA:225,112,1,0
+BRDA:223,143,0,0
+BRDA:221,68,1,0
+BRDA:219,14,1,0
+FN:236,System.Boolean BaD.FunctionType::CanCastTo(BaD.Type)
+FNDA:0,System.Boolean BaD.FunctionType::CanCastTo(BaD.Type)
+DA:237,0
+DA:239,0
+DA:240,0
+DA:241,0
+DA:242,0
+DA:243,0
+DA:244,0
+DA:245,0
+DA:246,0
+DA:247,0
+DA:249,0
+DA:250,0
+DA:252,0
+DA:253,0
+DA:254,0
+BRDA:239,14,0,0
+BRDA:241,37,0,0
+BRDA:241,37,1,0
+BRDA:241,68,0,0
+BRDA:243,143,1,0
+BRDA:245,112,0,0
+BRDA:245,112,1,0
+BRDA:243,143,0,0
+BRDA:241,68,1,0
+BRDA:239,14,1,0
+FN:256,System.Int32 BaD.FunctionType::SizeOf()
+FNDA:0,System.Int32 BaD.FunctionType::SizeOf()
+DA:257,0
+DA:258,0
+DA:259,0
+FN:261,System.Int32 BaD.FunctionType::LocalSize()
+FNDA:0,System.Int32 BaD.FunctionType::LocalSize()
+DA:262,0
+DA:263,0
+DA:264,0
+FN:266,System.Int32 BaD.FunctionType::GetHashCode()
+FNDA:0,System.Int32 BaD.FunctionType::GetHashCode()
+DA:267,0
+DA:268,0
+DA:269,0
+FN:192,System.Void BaD.FunctionType::.ctor(BaD.Type,System.Collections.Generic.List`1<BaD.Type>,System.Boolean)
+FNDA:0,System.Void BaD.FunctionType::.ctor(BaD.Type,System.Collections.Generic.List`1<BaD.Type>,System.Boolean)
+DA:193,0
+DA:194,0
+DA:195,0
+DA:196,0
+DA:197,0
+DA:198,0
+FN:273,System.String BaD.TypedIdentifier::get_Name()
+FNDA:0,System.String BaD.TypedIdentifier::get_Name()
+DA:274,0
+FN:274,BaD.Type BaD.TypedIdentifier::get_Type()
+FNDA:0,BaD.Type BaD.TypedIdentifier::get_Type()
+DA:275,0
+FN:283,System.String BaD.TypedIdentifier::ToString()
+FNDA:0,System.String BaD.TypedIdentifier::ToString()
+DA:284,0
+DA:285,0
+DA:286,0
+BRDA:285,24,0,0
+BRDA:285,24,1,0
+FN:276,System.Void BaD.TypedIdentifier::.ctor(System.String,BaD.Type)
+FNDA:0,System.Void BaD.TypedIdentifier::.ctor(System.String,BaD.Type)
+DA:277,0
+DA:278,0
+DA:279,0
+DA:280,0
+DA:281,0
+FN:290,BaD.Type BaD.ListType::get_ElementType()
+FNDA:0,BaD.Type BaD.ListType::get_ElementType()
+DA:291,0
+FN:291,System.Int32 BaD.ListType::get_Length()
+FNDA:0,System.Int32 BaD.ListType::get_Length()
+DA:292,0
+FN:300,System.String BaD.ListType::ToString()
+FNDA:0,System.String BaD.ListType::ToString()
+DA:301,0
+DA:302,0
+DA:303,0
+BRDA:302,24,0,0
+BRDA:302,24,1,0
+FN:305,System.Boolean BaD.ListType::Equals(System.Object)
+FNDA:0,System.Boolean BaD.ListType::Equals(System.Object)
+DA:306,0
+DA:307,0
+DA:308,0
+DA:309,0
+DA:311,0
+DA:312,0
+BRDA:307,14,0,0
+BRDA:309,34,0,0
+BRDA:309,34,1,0
+BRDA:307,14,1,0
+FN:314,System.Int32 BaD.ListType::GetHashCode()
+FNDA:0,System.Int32 BaD.ListType::GetHashCode()
+DA:315,0
+DA:316,0
+DA:317,0
+FN:319,System.Boolean BaD.ListType::CanCastTo(BaD.Type)
+FNDA:0,System.Boolean BaD.ListType::CanCastTo(BaD.Type)
+DA:320,0
+DA:321,0
+DA:322,0
+DA:323,0
+DA:327,0
+DA:328,0
+DA:329,0
+DA:331,0
+DA:332,0
+BRDA:321,14,0,0
+BRDA:323,34,0,0
+BRDA:323,34,1,0
+BRDA:321,14,1,0
+BRDA:327,71,0,0
+BRDA:327,71,1,0
+FN:334,System.Int32 BaD.ListType::SizeOf()
+FNDA:0,System.Int32 BaD.ListType::SizeOf()
+DA:335,0
+DA:336,0
+DA:338,0
+DA:339,0
+DA:340,0
+DA:341,0
+DA:342,0
+DA:343,0
+BRDA:338,28,0,0
+BRDA:338,28,1,0
+FN:345,System.Int32 BaD.ListType::LocalSize()
+FNDA:0,System.Int32 BaD.ListType::LocalSize()
+DA:346,0
+DA:349,0
+DA:351,0
+DA:352,0
+DA:353,0
+DA:354,0
+DA:355,0
+DA:356,0
+BRDA:351,28,0,0
+BRDA:351,28,1,0
+FN:293,System.Void BaD.ListType::.ctor(BaD.Type,System.Int32)
+FNDA:0,System.Void BaD.ListType::.ctor(BaD.Type,System.Int32)
+DA:294,0
+DA:295,0
+DA:296,0
+DA:297,0
+DA:298,0
+LF:197
+LH:0
+BRF:94
+BRH:0
+FNF:38
+FNH:0
+end_of_record
+SF:C:\Users\lords\Documents\Github\BaD\Program.cs
+FN:195,System.Void BaD.Program::Main(System.String[])
+FNDA:0,System.Void BaD.Program::Main(System.String[])
+DA:196,0
+DA:198,0
+DA:199,0
+DA:200,0
+DA:202,0
+DA:203,0
+DA:204,0
+DA:205,0
+DA:206,0
+DA:209,0
+DA:212,0
+DA:214,0
+DA:216,0
+DA:217,0
+DA:218,0
+DA:219,0
+DA:220,0
+DA:221,0
+DA:222,0
+DA:224,0
+DA:225,0
+DA:226,0
+DA:227,0
+DA:228,0
+DA:230,0
+DA:232,0
+DA:233,0
+DA:235,0
+DA:238,0
+DA:239,0
+DA:240,0
+DA:241,0
+BRDA:202,97,1,0
+BRDA:202,97,0,0
+BRDA:217,201,1,0
+BRDA:220,166,0,0
+BRDA:220,166,1,0
+BRDA:217,201,0,0
+BRDA:224,257,1,0
+BRDA:226,234,0,0
+BRDA:226,234,1,0
+BRDA:224,257,0,0
+LF:32
+LH:0
+BRF:10
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\lords\Documents\Github\BaD\TypeChecker\TypeChecker.cs
+FN:10,System.Void BaD.TypeCheckerException::.ctor(System.String,BaD.StreamPosition)
+FNDA:0,System.Void BaD.TypeCheckerException::.ctor(System.String,BaD.StreamPosition)
+DA:11,0
+FN:28,BaD.Type BaD.TypeChecker::Find(System.String)
+FNDA:0,BaD.Type BaD.TypeChecker::Find(System.String)
+DA:29,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+BRDA:33,83,1,0
+BRDA:35,43,0,0
+BRDA:35,43,1,0
+BRDA:37,68,0,0
+BRDA:37,68,1,0
+BRDA:33,83,0,0
+FN:43,System.Boolean BaD.TypeChecker::IsVariable(System.String)
+FNDA:0,System.Boolean BaD.TypeChecker::IsVariable(System.String)
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+BRDA:45,53,1,0
+BRDA:47,39,0,0
+BRDA:47,39,1,0
+BRDA:45,53,0,0
+FN:65,BaD.TypeChecker/Scope BaD.TypeChecker::get_CurrentScope()
+FNDA:0,BaD.TypeChecker/Scope BaD.TypeChecker::get_CurrentScope()
+DA:66,0
+FN:71,System.Void BaD.TypeChecker::Check()
+FNDA:0,System.Void BaD.TypeChecker::Check()
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:80,0
+DA:81,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:92,0
+BRDA:73,45,1,0
+BRDA:75,26,0,0
+BRDA:75,26,1,0
+BRDA:73,45,0,0
+BRDA:80,80,0,0
+BRDA:80,80,1,0
+BRDA:84,140,0,0
+BRDA:86,157,0,0
+BRDA:86,157,1,0
+BRDA:86,183,1,0
+BRDA:88,199,0,0
+BRDA:88,224,0,0
+BRDA:88,199,1,0
+BRDA:88,224,1,0
+BRDA:88,266,1,0
+BRDA:84,140,1,0
+BRDA:86,183,0,0
+BRDA:88,266,0,0
+FN:96,System.Void BaD.TypeChecker::PushOperations(System.Collections.Generic.List`1<BaD.TypeCheckerExpression>)
+FNDA:0,System.Void BaD.TypeChecker::PushOperations(System.Collections.Generic.List`1<BaD.TypeCheckerExpression>)
+DA:97,0
+DA:99,0
+DA:100,0
+DA:101,0
+BRDA:99,44,1,0
+BRDA:99,44,0,0
+FN:103,System.Void BaD.TypeChecker::ProcessOperations()
+FNDA:0,System.Void BaD.TypeChecker::ProcessOperations()
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+BRDA:105,39,1,0
+BRDA:105,39,0,0
+FN:111,System.Void BaD.TypeChecker::AddVariable(System.String,BaD.Type)
+FNDA:0,System.Void BaD.TypeChecker::AddVariable(System.String,BaD.Type)
+DA:112,0
+DA:113,0
+DA:114,0
+FN:117,System.Void BaD.TypeChecker::Check(BaD.SExpression)
+FNDA:0,System.Void BaD.TypeChecker::Check(BaD.SExpression)
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:127,0
+DA:128,0
+DA:130,0
+BRDA:119,7,1,0
+BRDA:121,17,0,0
+BRDA:121,17,1,0
+BRDA:121,33,0,0
+BRDA:121,33,1,0
+BRDA:119,7,0,0
+FN:24,System.Void BaD.TypeChecker::.ctor(BaD.SExpression[])
+FNDA:0,System.Void BaD.TypeChecker::.ctor(BaD.SExpression[])
+DA:25,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:94,0
+LF:72
+LH:0
+BRF:38
+BRH:0
+FNF:10
+FNH:0
+end_of_record
+SF:C:\Users\lords\Documents\Github\BaD\TypeChecker\TypeCheckerExpression.cs
+FN:11,System.Action`1<BaD.TypeChecker> BaD.TypeCheckerExpression::get_OnCheck()
+FNDA:0,System.Action`1<BaD.TypeChecker> BaD.TypeCheckerExpression::get_OnCheck()
+DA:12,0
+FN:29,System.Void BaD.TypeCheckerExpression::CheckType(BaD.TypeChecker)
+FNDA:0,System.Void BaD.TypeCheckerExpression::CheckType(BaD.TypeChecker)
+DA:30,0
+DA:31,0
+DA:32,0
+FN:14,System.Void BaD.TypeCheckerExpression::.ctor(BaD.SExpression)
+FNDA:0,System.Void BaD.TypeCheckerExpression::.ctor(BaD.SExpression)
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+FN:23,System.Void BaD.TypeCheckerExpression::.ctor(System.Action`1<BaD.TypeChecker>)
+FNDA:0,System.Void BaD.TypeCheckerExpression::.ctor(System.Action`1<BaD.TypeChecker>)
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+LF:16
+LH:0
+BRF:0
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:C:\Users\lords\Documents\Github\BaD\BaD.Tests\LexerTests.cs
+FN:6,System.Void BaD.Tests.LexerTests::ReservedWordsTest()
+FNDA:0,System.Void BaD.Tests.LexerTests::ReservedWordsTest()
+DA:7,0
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+BRDA:38,434,1,0
+BRDA:38,434,0,0
+FN:48,System.Void BaD.Tests.LexerTests::CommentTest()
+FNDA:0,System.Void BaD.Tests.LexerTests::CommentTest()
+DA:49,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+FN:58,System.Void BaD.Tests.LexerTests::OperatorTest()
+FNDA:0,System.Void BaD.Tests.LexerTests::OperatorTest()
+DA:59,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+BRDA:83,345,1,0
+BRDA:83,345,0,0
+FN:93,System.Void BaD.Tests.LexerTests::EscapeSequences()
+FNDA:0,System.Void BaD.Tests.LexerTests::EscapeSequences()
+DA:94,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+BRDA:106,248,1,0
+BRDA:106,248,0,0
+FN:118,System.Void BaD.Tests.LexerTests::NegativeTest()
+FNDA:0,System.Void BaD.Tests.LexerTests::NegativeTest()
+DA:119,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:131,0
+DA:132,0
+DA:133,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+FN:144,System.Void BaD.Tests.LexerTests::TestExceptions()
+FNDA:0,System.Void BaD.Tests.LexerTests::TestExceptions()
+DA:145,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:152,0
+DA:153,0
+DA:154,0
+DA:155,0
+FN:160,System.Void BaD.Tests.LexerTests::IdentifierTest()
+FNDA:0,System.Void BaD.Tests.LexerTests::IdentifierTest()
+DA:161,0
+DA:163,0
+DA:164,0
+DA:165,0
+DA:166,0
+DA:167,0
+DA:168,0
+FN:171,System.Void BaD.Tests.LexerTests::TestTokenPeek()
+FNDA:0,System.Void BaD.Tests.LexerTests::TestTokenPeek()
+DA:172,0
+DA:174,0
+DA:175,0
+DA:176,0
+DA:177,0
+DA:178,0
+DA:181,0
+DA:182,0
+DA:183,0
+DA:186,0
+DA:187,0
+DA:189,0
+FN:192,System.Void BaD.Tests.LexerTests::LiteralTest()
+FNDA:0,System.Void BaD.Tests.LexerTests::LiteralTest()
+DA:193,0
+DA:195,0
+DA:196,0
+DA:197,0
+DA:198,0
+DA:199,0
+DA:201,0
+DA:202,0
+DA:205,0
+DA:206,0
+DA:207,0
+DA:208,0
+DA:209,0
+DA:210,0
+DA:213,0
+DA:214,0
+DA:215,0
+DA:216,0
+DA:217,0
+DA:219,0
+DA:220,0
+DA:223,0
+DA:224,0
+DA:225,0
+DA:226,0
+DA:227,0
+DA:228,0
+DA:230,0
+DA:231,0
+DA:232,0
+DA:233,0
+DA:234,0
+DA:235,0
+DA:236,0
+FN:241,System.Void BaD.Tests.LexerTests::TestTokenToString()
+FNDA:0,System.Void BaD.Tests.LexerTests::TestTokenToString()
+DA:242,0
+DA:243,0
+DA:244,0
+DA:246,0
+DA:247,0
+DA:249,0
+DA:250,0
+DA:251,0
+FN:254,System.Void BaD.Tests.LexerTests::TestTokenEquals()
+FNDA:0,System.Void BaD.Tests.LexerTests::TestTokenEquals()
+DA:255,0
+DA:256,0
+DA:257,0
+DA:258,0
+DA:260,0
+DA:261,0
+DA:262,0
+DA:264,0
+DA:265,0
+DA:266,0
+DA:267,0
+FN:270,System.Void BaD.Tests.LexerTests::TestNewLine()
+FNDA:0,System.Void BaD.Tests.LexerTests::TestNewLine()
+DA:271,0
+DA:272,0
+DA:273,0
+DA:274,0
+DA:275,0
+DA:276,0
+DA:277,0
+DA:278,0
+DA:280,0
+DA:281,0
+DA:282,0
+DA:283,0
+DA:284,0
+DA:285,0
+FN:288,System.Void BaD.Tests.LexerTests::TestFilestream()
+FNDA:0,System.Void BaD.Tests.LexerTests::TestFilestream()
+DA:289,0
+DA:290,0
+DA:291,0
+DA:294,0
+DA:295,0
+DA:296,0
+DA:300,0
+DA:301,0
+DA:302,0
+DA:303,0
+DA:304,0
+DA:306,0
+DA:307,0
+DA:308,0
+DA:309,0
+DA:310,0
+DA:313,0
+DA:314,0
+DA:315,0
+FN:319,System.Void BaD.Tests.LexerTests::TestFileCharacterSource()
+FNDA:0,System.Void BaD.Tests.LexerTests::TestFileCharacterSource()
+DA:320,0
+DA:321,0
+DA:324,0
+DA:325,0
+DA:326,0
+DA:327,0
+DA:330,0
+DA:331,0
+DA:332,0
+DA:335,0
+DA:338,0
+DA:339,0
+DA:340,0
+DA:343,0
+DA:344,0
+FN:347,System.Void BaD.Tests.LexerTests::StringCharacterSourceTest()
+FNDA:0,System.Void BaD.Tests.LexerTests::StringCharacterSourceTest()
+DA:348,0
+DA:349,0
+DA:350,0
+DA:351,0
+DA:352,0
+DA:353,0
+DA:354,0
+DA:355,0
+DA:358,0
+DA:361,0
+DA:362,0
+DA:363,0
+DA:366,0
+DA:367,0
+LF:253
+LH:0
+BRF:6
+BRH:0
+FNF:15
+FNH:0
+end_of_record
